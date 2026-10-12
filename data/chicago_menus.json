@@ -1,0 +1,2445 @@
+{
+ "region": "Chicago and western/southwest suburbs",
+ "retrieved": "2026-10-12",
+ "method": "Prices copied from each restaurant's own public menu page (URL per place) and checked for name/price match on the page. Locations from OpenStreetMap. 'Typical meal' is computed by CartWise, not published by the restaurant.",
+ "places": [
+  {
+   "name": "Stussy's Diner",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "3500 South Halsted Street",
+   "city": "Chicago",
+   "postcode": "60609",
+   "lat": 41.830659,
+   "lon": -87.646281,
+   "osm": "node/4427225176",
+   "menuUrl": "https://stussysdiner.com/food-menu?source=header&spot_id=338316&destination=food_menu&promotion=dessert_day",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Waffle Waffle",
+     "price": 15.99
+    },
+    {
+     "name": "Steak & Eggs",
+     "price": 24.99
+    },
+    {
+     "name": "Salmon Croquet",
+     "price": 21.99
+    },
+    {
+     "name": "Pretty Egg Benedict",
+     "price": 15.99
+    },
+    {
+     "name": "Pink Strawberry Shortcakes",
+     "price": 18.99
+    },
+    {
+     "name": "Hash Your Way",
+     "price": 4.99
+    },
+    {
+     "name": "Biscuits & Gravy",
+     "price": 17.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 18.99,
+    "drinkMedian": null,
+    "perPerson": 18.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Falafel & Grill",
+   "type": "fast_food",
+   "cuisine": "middle eastern",
+   "street": "1317 North Milwaukee Avenue",
+   "city": "Chicago",
+   "postcode": "60622",
+   "lat": 41.905874,
+   "lon": -87.670158,
+   "osm": "node/3652928207",
+   "menuUrl": "https://falafelngrill.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Combination Meat",
+     "price": 25.95
+    },
+    {
+     "name": "Falafel Sandwich",
+     "price": 7.95
+    },
+    {
+     "name": "Chicken Shawarma Sandwich",
+     "price": 10.95
+    },
+    {
+     "name": "Veggie Combination                             Vegan",
+     "price": 14.95
+    },
+    {
+     "name": "Chicken Shawarma Plate",
+     "price": 17.95
+    },
+    {
+     "name": "Beef Shawarma Plate",
+     "price": 19.95
+    },
+    {
+     "name": "Fountain Drink",
+     "price": 2.75
+    },
+    {
+     "name": "Bottled water",
+     "price": 1.95
+    },
+    {
+     "name": "Greek Salad with Chicken",
+     "price": 14.95
+    },
+    {
+     "name": "Lentil Soup                             Vegan",
+     "price": 4.95
+    }
+   ],
+   "typical": {
+    "entreeMedian": 16.45,
+    "drinkMedian": 2.35,
+    "perPerson": 18.8,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Cafe Central",
+   "type": "restaurant",
+   "cuisine": "caribbean",
+   "street": "1437 West Chicago Avenue",
+   "city": "Chicago",
+   "postcode": "60642",
+   "lat": 41.895919,
+   "lon": -87.663867,
+   "osm": "node/6269627500",
+   "menuUrl": "https://cafecentralchicago.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Steak",
+     "price": 12.0
+    },
+    {
+     "name": "Roasted Pork",
+     "price": 12.35
+    },
+    {
+     "name": "Ham and Cheese",
+     "price": 11.35
+    },
+    {
+     "name": "Steak, Pork, Ham",
+     "price": 16.35
+    },
+    {
+     "name": "Chicken",
+     "price": 12.35
+    },
+    {
+     "name": "Bottled Water",
+     "price": 2.25
+    },
+    {
+     "name": "Fried empanada filled with beef",
+     "price": 3.0
+    },
+    {
+     "name": "White Rice",
+     "price": 16.35
+    }
+   ],
+   "typical": {
+    "entreeMedian": 12.35,
+    "drinkMedian": 2.25,
+    "perPerson": 14.6,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Riccardo Trattoria",
+   "type": "restaurant",
+   "cuisine": "italian",
+   "street": "2119 North Clark Street",
+   "city": "Chicago",
+   "postcode": "60614",
+   "lat": 41.920718,
+   "lon": -87.637331,
+   "osm": "node/5092612001",
+   "menuUrl": "https://www.riccardotrattoria.com/chicago-lincoln-park-riccardo-trattoria-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "BUFFALO MOZZARELLA CAPRESE",
+     "price": 24.0
+    },
+    {
+     "name": "BURRATA E CULATELLO PROSCIUTTO",
+     "price": 28.0
+    },
+    {
+     "name": "SASHIMI TUNA TARTAR",
+     "price": 24.0
+    },
+    {
+     "name": "PEPPERED BEEF CARPACCIO",
+     "price": 24.0
+    },
+    {
+     "name": "PROSCIUTTO E MELONE",
+     "price": 24.0
+    },
+    {
+     "name": "EGGPLANT PARMIGIANA",
+     "price": 18.0
+    },
+    {
+     "name": "FRIED CALAMARI",
+     "price": 24.0
+    },
+    {
+     "name": "CALAMARI ALLA PLANCIA",
+     "price": 28.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 24.0,
+    "drinkMedian": null,
+    "perPerson": 24.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Taquer\u00eda Ching\u00f3n",
+   "type": "fast_food",
+   "cuisine": "mexican",
+   "street": "817 West Fulton Street",
+   "city": "",
+   "postcode": "",
+   "lat": 41.886637,
+   "lon": -87.648219,
+   "osm": "node/12963715226",
+   "menuUrl": "https://www.taqueriachingon.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Plain Quesadilla",
+     "price": 9.0
+    },
+    {
+     "name": "Raclette Y Jamon",
+     "price": 12.0
+    },
+    {
+     "name": "Pombazo Chingon",
+     "price": 15.95
+    },
+    {
+     "name": "California Burrito",
+     "price": 19.0
+    },
+    {
+     "name": "Chingon Churros",
+     "price": 9.0
+    },
+    {
+     "name": "Horchata Cold Brew",
+     "price": 6.0
+    },
+    {
+     "name": "Jarritos - Mandarin",
+     "price": 4.0
+    },
+    {
+     "name": "Guacamole & Chips",
+     "price": 15.0
+    },
+    {
+     "name": "Chingon Loaded Fries",
+     "price": 10.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 12.0,
+    "drinkMedian": 5.0,
+    "perPerson": 17.0,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Lucy's Cafe",
+   "type": "restaurant",
+   "cuisine": "brunch",
+   "street": "2100 West Roscoe Street",
+   "city": "Chicago",
+   "postcode": "60618",
+   "lat": 41.943339,
+   "lon": -87.681041,
+   "osm": "node/5567717000",
+   "menuUrl": "https://lucyscafe.net/chicago-roscoe-village-lucy-s-cafe-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "California Eggs Benedict",
+     "price": 16.0
+    },
+    {
+     "name": "Southwest Skillet",
+     "price": 16.0
+    },
+    {
+     "name": "Eggs in a Basket",
+     "price": 16.0
+    },
+    {
+     "name": "Spanish Tortilla",
+     "price": 16.0
+    },
+    {
+     "name": "Roasted Red Pepper Omelet",
+     "price": 15.0
+    },
+    {
+     "name": "Pesto & Goat Cheese Omelet",
+     "price": 15.0
+    },
+    {
+     "name": "Club Soda",
+     "price": 3.0
+    },
+    {
+     "name": "Bottled water",
+     "price": 2.0
+    },
+    {
+     "name": "Veggie Chicken Fried Rice",
+     "price": 13.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 16.0,
+    "drinkMedian": 2.5,
+    "perPerson": 18.5,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Zaab E Lee",
+   "type": "restaurant",
+   "cuisine": "thai",
+   "street": "3021 West Lawrence Avenue",
+   "city": "",
+   "postcode": "",
+   "lat": 41.968363,
+   "lon": -87.704505,
+   "osm": "node/13256567901",
+   "menuUrl": "https://zaab-e-leechicago.online/food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Pot Sticker",
+     "price": 7.95
+    },
+    {
+     "name": "Tiger Cry (Grill Beef)",
+     "price": 20.95
+    },
+    {
+     "name": "Moo Daad Diew (Fried Pork)",
+     "price": 13.95
+    },
+    {
+     "name": "Neau Daad Diew (Fried Beef)",
+     "price": 16.95
+    },
+    {
+     "name": "Sai Krog Isan",
+     "price": 13.95
+    },
+    {
+     "name": "Fried Tofu",
+     "price": 7.95
+    },
+    {
+     "name": "Veggie Egg Roll",
+     "price": 7.95
+    },
+    {
+     "name": "Moo Ping Sticky Rice",
+     "price": 14.95
+    }
+   ],
+   "typical": {
+    "entreeMedian": 13.95,
+    "drinkMedian": null,
+    "perPerson": 13.95,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Il Culaccino",
+   "type": "restaurant",
+   "cuisine": "italian",
+   "street": "2134 South Indiana Avenue",
+   "city": "Chicago",
+   "postcode": "60616",
+   "lat": 41.853147,
+   "lon": -87.622477,
+   "osm": "node/13290117249",
+   "menuUrl": "https://ilculaccino.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Sausage & Peppers",
+     "price": 20.0
+    },
+    {
+     "name": "Whipped Ricotta Tuffo",
+     "price": 18.0
+    },
+    {
+     "name": "Stuffed Peppers",
+     "price": 19.0
+    },
+    {
+     "name": "Imported Buratta",
+     "price": 22.0
+    },
+    {
+     "name": "Salsiccia e Rapini Pizette",
+     "price": 18.0
+    },
+    {
+     "name": "Baked Clams",
+     "price": 25.0
+    },
+    {
+     "name": "Grilled Calamari",
+     "price": 22.0
+    },
+    {
+     "name": "Fried Calamari",
+     "price": 19.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 19.5,
+    "drinkMedian": null,
+    "perPerson": 19.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Meli",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "",
+   "city": "",
+   "postcode": "",
+   "lat": 41.875405,
+   "lon": -87.629431,
+   "osm": "node/5348219721",
+   "menuUrl": "https://www.melicafe.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "LAMB SHAKSHUKA",
+     "price": 23.0
+    },
+    {
+     "name": "Belgium house made waffle batter",
+     "price": 15.0
+    },
+    {
+     "name": "Organic local raw honey & Greek yogurt",
+     "price": 11.0
+    },
+    {
+     "name": "Corned Beef Hash",
+     "price": 7.0
+    },
+    {
+     "name": "Three-grain veggie patties",
+     "price": 7.0
+    },
+    {
+     "name": "Berries",
+     "price": 9.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 10.0,
+    "drinkMedian": null,
+    "perPerson": 10.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Greek Corner Gyros",
+   "type": "restaurant",
+   "cuisine": "greek",
+   "street": "958 North Damen Avenue",
+   "city": "Chicago",
+   "postcode": "60622",
+   "lat": 41.899454,
+   "lon": -87.677285,
+   "osm": "node/12714770267",
+   "menuUrl": "https://greekcornergyros.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Seasoned beef & lamb",
+     "price": 9.99
+    },
+    {
+     "name": "Marinated Chicken Breast",
+     "price": 11.19
+    },
+    {
+     "name": "Seasoned chicken breast gyro",
+     "price": 10.99
+    },
+    {
+     "name": "Seasones lamb & beef",
+     "price": 15.49
+    },
+    {
+     "name": "Seasoned and grilled",
+     "price": 16.29
+    },
+    {
+     "name": "On French bread",
+     "price": 9.49
+    },
+    {
+     "name": "Feta or American cheese",
+     "price": 4.69
+    }
+   ],
+   "typical": {
+    "entreeMedian": 11.19,
+    "drinkMedian": null,
+    "perPerson": 11.19,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Beck\u2019s Chicago",
+   "type": "restaurant",
+   "cuisine": "",
+   "street": "2201 North Clybourn Avenue",
+   "city": "Chicago",
+   "postcode": "60614",
+   "lat": 41.921794,
+   "lon": -87.664317,
+   "osm": "node/6265680688",
+   "menuUrl": "https://beckschicago.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Milwaukee Pretzel Company Pretzel",
+     "price": 9.0
+    },
+    {
+     "name": "Brussel Sprouts & Cauliflower (V)",
+     "price": 10.0
+    },
+    {
+     "name": "Beck's Caesar",
+     "price": 10.0
+    },
+    {
+     "name": "The Lincoln Park",
+     "price": 16.0
+    },
+    {
+     "name": "Fried Chicken Sliders",
+     "price": 12.0
+    },
+    {
+     "name": "Veggie Quesadilla",
+     "price": 13.0
+    },
+    {
+     "name": "Aguasol House Margarita",
+     "price": 10.0
+    },
+    {
+     "name": "Pink Lemonade Cocktail",
+     "price": 10.0
+    },
+    {
+     "name": "Southern Fried Pickles",
+     "price": 10.0
+    },
+    {
+     "name": "Chips & Salsa",
+     "price": 7.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 11.0,
+    "drinkMedian": 10.0,
+    "perPerson": 21.0,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Del Seoul",
+   "type": "restaurant",
+   "cuisine": "korean",
+   "street": "2568 North Clark Street",
+   "city": "Chicago",
+   "postcode": "60614",
+   "lat": 41.92947,
+   "lon": -87.642941,
+   "osm": "node/3627743049",
+   "menuUrl": "https://delseoul.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Seoul-Style Street Dumplings",
+     "price": 9.25
+    },
+    {
+     "name": "Pan-Fried Dumplings",
+     "price": 9.25
+    },
+    {
+     "name": "Kalbi Bento",
+     "price": 21.99
+    },
+    {
+     "name": "Bulgogi Bento",
+     "price": 20.5
+    },
+    {
+     "name": "Spicy BBQ Pork Bento",
+     "price": 16.99
+    },
+    {
+     "name": "Lagunitas Lil Sumpin Ale",
+     "price": 5.5
+    },
+    {
+     "name": "Pale Wheat Ale",
+     "price": 5.5
+    },
+    {
+     "name": "Sesame-Chili Shrimp Taco",
+     "price": 4.25
+    },
+    {
+     "name": "Sambal Fish Taco",
+     "price": 5.95
+    }
+   ],
+   "typical": {
+    "entreeMedian": 16.99,
+    "drinkMedian": 5.5,
+    "perPerson": 22.49,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Indian Garden",
+   "type": "restaurant",
+   "cuisine": "indian",
+   "street": "247 East Ontario Street",
+   "city": "Chicago",
+   "postcode": "60611",
+   "lat": 41.893243,
+   "lon": -87.620841,
+   "osm": "node/3551688266",
+   "menuUrl": "https://www.indiangardenchicago.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Chicken Pakora   (Gluten Free)",
+     "price": 14.0
+    },
+    {
+     "name": "Assorted Appetizers",
+     "price": 22.0
+    },
+    {
+     "name": "Chandini Chowk Aloo Tikki",
+     "price": 12.0
+    },
+    {
+     "name": "Masala Papad",
+     "price": 10.0
+    },
+    {
+     "name": "Mughlai Boti Kabob Masala",
+     "price": 26.0
+    },
+    {
+     "name": "Soda",
+     "price": 4.0
+    },
+    {
+     "name": "Black Tea",
+     "price": 4.0
+    },
+    {
+     "name": "Tandoor baked crisp lentil wafers (4 pcs).",
+     "price": 5.0
+    },
+    {
+     "name": "Juices   (Orange & Pine Apple)",
+     "price": 6.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 22.0,
+    "drinkMedian": 4.0,
+    "perPerson": 26.0,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Pizano's Pizza & Pasta",
+   "type": "restaurant",
+   "cuisine": "pizza",
+   "street": "61 East Madison Street",
+   "city": "Chicago",
+   "postcode": "60603",
+   "lat": 41.881975,
+   "lon": -87.625669,
+   "osm": "node/318274065",
+   "menuUrl": "https://www.pizanoschicago.com/locations/chicago-loop/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Baked Meatball Skillet",
+     "price": 16.5
+    },
+    {
+     "name": "Toasted Ravioli",
+     "price": 14.5
+    },
+    {
+     "name": "For One",
+     "price": 7.95
+    },
+    {
+     "name": "For the Table",
+     "price": 13.95
+    },
+    {
+     "name": "Cheese Pizza",
+     "price": 12.7
+    },
+    {
+     "name": "Garlic Bread",
+     "price": 10.95
+    },
+    {
+     "name": "Cheesy Garlic Bread",
+     "price": 13.5
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.22,
+    "drinkMedian": null,
+    "perPerson": 14.22,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Turquoise Restaurant",
+   "type": "restaurant",
+   "cuisine": "turkish",
+   "street": "2147 West Roscoe Street",
+   "city": "Chicago",
+   "postcode": "60618",
+   "lat": 41.942897,
+   "lon": -87.682679,
+   "osm": "node/6306842968",
+   "menuUrl": "https://turquoisedining.com/-food-menu?source=header&spot_id=8862&destination=food_menu&promotion=dessert_day",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Su Borek  (V)",
+     "price": 16.0
+    },
+    {
+     "name": "Falafel (V, GF)",
+     "price": 15.0
+    },
+    {
+     "name": "Saganaki  Cheese",
+     "price": 16.0
+    },
+    {
+     "name": "Mezze Platter (V)",
+     "price": 40.0
+    },
+    {
+     "name": "Braised Lemon Artichoke Bottoms",
+     "price": 15.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 15.5,
+    "drinkMedian": null,
+    "perPerson": 15.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Dell Rhea's Chicken Basket",
+   "type": "restaurant",
+   "cuisine": "chicken",
+   "street": "645 Joliet Road",
+   "city": "Willowbrook",
+   "postcode": "60527",
+   "lat": 41.745585,
+   "lon": -87.939247,
+   "osm": "way/228465377",
+   "menuUrl": "https://chickenbasket.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Potato Skins",
+     "price": 14.99
+    },
+    {
+     "name": "Chicken Tenders",
+     "price": 13.99
+    },
+    {
+     "name": "Fried Chicken Gizzards",
+     "price": 14.99
+    },
+    {
+     "name": "Fried Cauliflower",
+     "price": 13.99
+    },
+    {
+     "name": "Giant Pretzel Twist",
+     "price": 17.99
+    },
+    {
+     "name": "Fried Chicken Livers",
+     "price": 14.99
+    },
+    {
+     "name": "Route 66 Root Beer Float",
+     "price": 5.99
+    },
+    {
+     "name": "Fountain Drinks",
+     "price": 2.99
+    },
+    {
+     "name": "Corn Fritters",
+     "price": 10.99
+    },
+    {
+     "name": "Mac n Cheese Balls",
+     "price": 13.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.99,
+    "drinkMedian": 4.49,
+    "perPerson": 19.48,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "3 Corners Grill & Tap",
+   "type": "restaurant",
+   "cuisine": "grill",
+   "street": "12371 Derby Road",
+   "city": "Lemont",
+   "postcode": "60439",
+   "lat": 41.664069,
+   "lon": -87.963529,
+   "osm": "node/13639769791",
+   "menuUrl": "https://3cornersgrill.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "BOOM BOOM SHRIMP",
+     "price": 17.99
+    },
+    {
+     "name": "Buffalo Shrimp",
+     "price": 14.99
+    },
+    {
+     "name": "REUBEN ROLLS",
+     "price": 14.99
+    },
+    {
+     "name": "Cheese",
+     "price": 11.99
+    },
+    {
+     "name": "Chicken",
+     "price": 14.99
+    },
+    {
+     "name": "Steak",
+     "price": 15.99
+    },
+    {
+     "name": "BECKY'S BUFFALO DIP",
+     "price": 13.99
+    },
+    {
+     "name": "IPA CHEESE CURDS",
+     "price": 12.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.99,
+    "drinkMedian": null,
+    "perPerson": 14.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Hamburger Heaven",
+   "type": "fast_food",
+   "cuisine": "burger",
+   "street": "281 North York Street",
+   "city": "Elmhurst",
+   "postcode": "60126",
+   "lat": 41.906101,
+   "lon": -87.939657,
+   "osm": "way/609554314",
+   "menuUrl": "https://hamburgerheaven.applova.menu/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "NO BULL",
+     "price": 17.49
+    },
+    {
+     "name": "Longhorn",
+     "price": 11.49
+    },
+    {
+     "name": "York St",
+     "price": 11.49
+    },
+    {
+     "name": "Larry",
+     "price": 10.99
+    },
+    {
+     "name": "Big Chz/Bac",
+     "price": 11.49
+    },
+    {
+     "name": "BIG Chez",
+     "price": 9.99
+    },
+    {
+     "name": "Btl Water",
+     "price": 1.99
+    },
+    {
+     "name": "SHAKE (Sm)",
+     "price": 4.99
+    },
+    {
+     "name": "D. D. Ham",
+     "price": 6.99
+    },
+    {
+     "name": "Kids Chez",
+     "price": 5.49
+    }
+   ],
+   "typical": {
+    "entreeMedian": 11.49,
+    "drinkMedian": 3.49,
+    "perPerson": 14.98,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Mama Luigi's Restaurant",
+   "type": "restaurant",
+   "cuisine": "italian",
+   "street": "7500 Harlem Avenue",
+   "city": "Bridgeview",
+   "postcode": "60455",
+   "lat": 41.755058,
+   "lon": -87.800445,
+   "osm": "node/5922299661",
+   "menuUrl": "https://mamaluigis.com/bridgeview-south-west-side-mama-luigi-s-restaurant-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Shrimp Scampi",
+     "price": 14.99
+    },
+    {
+     "name": "Zucchini Fritte'",
+     "price": 10.99
+    },
+    {
+     "name": "Mushrooms Fritte",
+     "price": 10.99
+    },
+    {
+     "name": "Toasted Ravioli",
+     "price": 10.99
+    },
+    {
+     "name": "Tomato & Mozzarella",
+     "price": 9.99
+    },
+    {
+     "name": "Peach Sangria",
+     "price": 8.0
+    },
+    {
+     "name": "Calamari Fritte'",
+     "price": 14.99
+    },
+    {
+     "name": "Calamari alla Griglia",
+     "price": 14.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 10.99,
+    "drinkMedian": null,
+    "perPerson": 10.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Raymes Steak & Fish House",
+   "type": "restaurant",
+   "cuisine": "steak",
+   "street": "4801 Lincoln Avenue",
+   "city": "Lisle",
+   "postcode": "60532",
+   "lat": 41.797739,
+   "lon": -88.076537,
+   "osm": "way/615300651",
+   "menuUrl": "https://www.raymessteakhouse.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "WALLEYE",
+     "price": 24.0
+    },
+    {
+     "name": "BLUE GILL",
+     "price": 23.0
+    },
+    {
+     "name": "Broiled or Parmesan Crusted",
+     "price": 19.0
+    },
+    {
+     "name": "Broiled",
+     "price": 24.0
+    },
+    {
+     "name": "Coconut or Breaded",
+     "price": 22.0
+    },
+    {
+     "name": "Broiled or with a Parmesan Crust",
+     "price": 24.0
+    },
+    {
+     "name": "Garlic Butter & Bread Crumbs",
+     "price": 22.0
+    },
+    {
+     "name": "Chefs Special Recipe with Alfredo Sauce",
+     "price": 19.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 23.5,
+    "drinkMedian": null,
+    "perPerson": 23.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Pop's Italian Beef",
+   "type": "fast_food",
+   "cuisine": "italian beef",
+   "street": "9400 West 159th Street",
+   "city": "Orland Park",
+   "postcode": "60467",
+   "lat": 41.601751,
+   "lon": -87.848395,
+   "osm": "way/803812376",
+   "menuUrl": "https://popsbeef.com/menus/orland-2/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Beef-N-Cheddar",
+     "price": 8.69
+    },
+    {
+     "name": "BBQ Beef",
+     "price": 8.49
+    },
+    {
+     "name": "Combo Sandwich (Beef & Sausage)",
+     "price": 9.69
+    },
+    {
+     "name": "Triple Hamburger",
+     "price": 7.99
+    },
+    {
+     "name": "Triple Cheeseburger",
+     "price": 8.99
+    },
+    {
+     "name": "Rib-Eye Steak Sandwich",
+     "price": 9.99
+    },
+    {
+     "name": "Italian Sausage",
+     "price": 6.59
+    },
+    {
+     "name": "Gravy Bread",
+     "price": 2.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 8.84,
+    "drinkMedian": null,
+    "perPerson": 8.84,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Carnivore & the Queen",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "2241 Maple Avenue",
+   "city": "Downers Grove",
+   "postcode": "60515",
+   "lat": 41.783874,
+   "lon": -88.037645,
+   "osm": "node/5827496669",
+   "menuUrl": "https://carnivoreandthequeen.com/food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "The Supper Club Prix Fixe",
+     "price": 45.0
+    },
+    {
+     "name": "Supper Club Relish Tray",
+     "price": 14.0
+    },
+    {
+     "name": "Shrimp & Crab Bisque",
+     "price": 14.0
+    },
+    {
+     "name": "The Queen's Deconstructed Wedge",
+     "price": 14.0
+    },
+    {
+     "name": "White Truffle 3 Cheese Stuffed Mushrooms",
+     "price": 19.0
+    },
+    {
+     "name": "Fire Cracker Shrimp",
+     "price": 19.0
+    },
+    {
+     "name": "Supper Club Vanilla Icecream & Coke Float",
+     "price": 6.0
+    },
+    {
+     "name": "Paris French Onion Soup",
+     "price": 12.0
+    },
+    {
+     "name": "Belvedere Bread & Spreads Service",
+     "price": 8.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.0,
+    "drinkMedian": 6.0,
+    "perPerson": 20.0,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Westchester Inn",
+   "type": "restaurant",
+   "cuisine": "czech",
+   "street": "3069 Wolf Road",
+   "city": "Westchester",
+   "postcode": "60154",
+   "lat": 41.834972,
+   "lon": -87.897783,
+   "osm": "node/9520717903",
+   "menuUrl": "https://westchesterinn.net/menu/35888722",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Breaded Pork Tenderloin & Breaded Shrimp",
+     "price": 25.75
+    },
+    {
+     "name": "Breaded Pork Tenderloin & Breaded Cauliflower",
+     "price": 23.75
+    },
+    {
+     "name": "Chicken Fingers",
+     "price": 8.95
+    },
+    {
+     "name": "French Fries",
+     "price": 4.15
+    },
+    {
+     "name": "Loaf Dumpling",
+     "price": 10.5
+    }
+   ],
+   "typical": {
+    "entreeMedian": 23.75,
+    "drinkMedian": null,
+    "perPerson": 23.75,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Mickey's Ribs & Gyros",
+   "type": "restaurant",
+   "cuisine": "sandwich",
+   "street": "17432 Oak Park Avenue",
+   "city": "Tinley Park",
+   "postcode": "60477",
+   "lat": 41.573893,
+   "lon": -87.784699,
+   "osm": "way/1175774338",
+   "menuUrl": "https://www.mickeysribsgyros.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Back Rib Dinner",
+     "price": 23.49
+    },
+    {
+     "name": "Gyros Plate",
+     "price": 14.49
+    },
+    {
+     "name": "N.Y. Strip Steak Sandwich",
+     "price": 13.49
+    },
+    {
+     "name": "Full Slab Ribs",
+     "price": 19.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 17.24,
+    "drinkMedian": null,
+    "perPerson": 17.24,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Wu's House",
+   "type": "restaurant",
+   "cuisine": "asian",
+   "street": "12300 South La Grange Road",
+   "city": "Palos Park",
+   "postcode": "60464",
+   "lat": 41.667197,
+   "lon": -87.854185,
+   "osm": "way/636708684",
+   "menuUrl": "https://www.wushouse.com/menu.html",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Shrimp Shumai (6pcs)",
+     "price": 7.99
+    },
+    {
+     "name": "Vegetable Tempura (10pcs)",
+     "price": 9.99
+    },
+    {
+     "name": "Chicken, Vegetable Tempura",
+     "price": 13.99
+    },
+    {
+     "name": "Shrimp, Vegetable Tempura",
+     "price": 15.99
+    },
+    {
+     "name": "Tempura Squid",
+     "price": 13.99
+    },
+    {
+     "name": "Soft Shell Crab",
+     "price": 18.99
+    },
+    {
+     "name": "Edamame",
+     "price": 6.99
+    },
+    {
+     "name": "Egg Roll (2pcs)",
+     "price": 6.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 13.99,
+    "drinkMedian": null,
+    "perPerson": 13.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Ghawar Restaurant",
+   "type": "restaurant",
+   "cuisine": "middle eastern",
+   "street": "8535 Harlem Avenue",
+   "city": "Burbank",
+   "postcode": "60459",
+   "lat": 41.735664,
+   "lon": -87.798669,
+   "osm": "node/14170579604",
+   "menuUrl": "https://ghawar-restaurant.foodyvo.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Sajieh- Beef Fillet",
+     "price": 21.99
+    },
+    {
+     "name": "Chicken Nuggets Meal",
+     "price": 9.99
+    },
+    {
+     "name": "Falafel Pita Sandwich",
+     "price": 9.99
+    },
+    {
+     "name": "Sheep Liver Sandwich",
+     "price": 11.99
+    },
+    {
+     "name": "Mieraf Pita Sandwich",
+     "price": 12.99
+    },
+    {
+     "name": "Chicken Liver Sandwich",
+     "price": 9.99
+    },
+    {
+     "name": "Kids Juice",
+     "price": 1.0
+    },
+    {
+     "name": "Soda",
+     "price": 1.99
+    },
+    {
+     "name": "Bread",
+     "price": 3.5
+    },
+    {
+     "name": "Falafel Stuffed With Onions",
+     "price": 3.49
+    }
+   ],
+   "typical": {
+    "entreeMedian": 10.99,
+    "drinkMedian": 1.5,
+    "perPerson": 12.48,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Luccas",
+   "type": "restaurant",
+   "cuisine": "italian",
+   "street": "106 West Burlington Avenue",
+   "city": "La Grange",
+   "postcode": "60525",
+   "lat": 41.81549,
+   "lon": -87.871227,
+   "osm": "node/3340973812",
+   "menuUrl": "https://www.luccaspizzeria.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Open-Faced Panini",
+     "price": 18.0
+    },
+    {
+     "name": "Frittata",
+     "price": 18.0
+    },
+    {
+     "name": "The Lucca",
+     "price": 36.0
+    },
+    {
+     "name": "Huevos Rancheros",
+     "price": 19.0
+    },
+    {
+     "name": "Traditional Breakfast",
+     "price": 17.0
+    },
+    {
+     "name": "Fresh Squeezed Orange or Grapefruit Juice",
+     "price": 6.0
+    },
+    {
+     "name": "Apple Juice",
+     "price": 4.0
+    },
+    {
+     "name": "Avocado Toast",
+     "price": 17.0
+    },
+    {
+     "name": "Nitro Espresso Martini",
+     "price": 16.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 18.0,
+    "drinkMedian": 5.0,
+    "perPerson": 23.0,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Novi's Beef",
+   "type": "fast_food",
+   "cuisine": "burger",
+   "street": "6746 West Ogden Avenue",
+   "city": "Berwyn",
+   "postcode": "60402",
+   "lat": 41.827149,
+   "lon": -87.792116,
+   "osm": "way/348002985",
+   "menuUrl": "https://novisbeeftogo.com/menu.html",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Novis Italian Beef Sandwich",
+     "price": 8.25
+    },
+    {
+     "name": "Gyro Plate",
+     "price": 15.0
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "price": 9.65
+    },
+    {
+     "name": "Provolone Mushroom Burger",
+     "price": 9.65
+    },
+    {
+     "name": "Hickory Bacon Cheeseburger",
+     "price": 9.65
+    },
+    {
+     "name": "Mac and Cheese Bites",
+     "price": 5.0
+    },
+    {
+     "name": "Curly Fries",
+     "price": 4.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 9.65,
+    "drinkMedian": null,
+    "perPerson": 9.65,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Pizza Mia",
+   "type": "fast_food",
+   "cuisine": "pizza",
+   "street": "14413 South Bell Road",
+   "city": "Homer Glen",
+   "postcode": "60491",
+   "lat": 41.626978,
+   "lon": -87.930341,
+   "osm": "node/5052443905",
+   "menuUrl": "https://pizzamiaonline.com/homer-glen/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Famous Thin Crust-Cheese",
+     "price": 11.85
+    },
+    {
+     "name": "Skinny Chub",
+     "price": 18.25
+    },
+    {
+     "name": "Chicken Only",
+     "price": 22.75
+    },
+    {
+     "name": "Spaghetti",
+     "price": 9.95
+    },
+    {
+     "name": "Mostaccioli",
+     "price": 9.95
+    },
+    {
+     "name": "Breaded Chicken",
+     "price": 3.25
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.1,
+    "drinkMedian": null,
+    "perPerson": 14.1,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Pizza 750",
+   "type": "restaurant",
+   "cuisine": "pizza",
+   "street": "501 Willow Boulevard",
+   "city": "Willow Springs",
+   "postcode": "60480",
+   "lat": 41.732563,
+   "lon": -87.878257,
+   "osm": "node/12994444468",
+   "menuUrl": "https://pizza750.com/food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Arugula Prosciutto",
+     "price": 18.0
+    },
+    {
+     "name": "BBQ Chicken",
+     "price": 19.0
+    },
+    {
+     "name": "Buffalo Chicken",
+     "price": 19.0
+    },
+    {
+     "name": "Buffalo Mac & Cheese",
+     "price": 18.0
+    },
+    {
+     "name": "Build Your Own Pizza",
+     "price": 14.0
+    },
+    {
+     "name": "Da Beef",
+     "price": 21.0
+    },
+    {
+     "name": "Slice Combo",
+     "price": 5.5
+    },
+    {
+     "name": "Cold Pimento Dip",
+     "price": 11.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 19.0,
+    "drinkMedian": null,
+    "perPerson": 19.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "The Ridge Bar & Grill",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "7414 Janes Avenue",
+   "city": "",
+   "postcode": "60517",
+   "lat": 41.75103,
+   "lon": -88.041319,
+   "osm": "node/2588596215",
+   "menuUrl": "https://www.ridgebargrill.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "SMOKE HOUSE SIZZLERS",
+     "price": 7.0
+    },
+    {
+     "name": "Skirt Steak",
+     "price": 25.0
+    },
+    {
+     "name": "Rib Eye",
+     "price": 26.0
+    },
+    {
+     "name": "Country Fried Steak",
+     "price": 19.0
+    },
+    {
+     "name": "PLAIN",
+     "price": 12.0
+    },
+    {
+     "name": "ESPRESSO",
+     "price": 5.0
+    },
+    {
+     "name": "CHAI TEA LATTE",
+     "price": 6.0
+    },
+    {
+     "name": "EGG WHITES",
+     "price": 2.5
+    },
+    {
+     "name": "Vegetable",
+     "price": 1.5
+    }
+   ],
+   "typical": {
+    "entreeMedian": 19.0,
+    "drinkMedian": 5.5,
+    "perPerson": 24.5,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Taco Burrito King",
+   "type": "fast_food",
+   "cuisine": "mexican",
+   "street": "6518 West North Avenue",
+   "city": "Chicago",
+   "postcode": "60707",
+   "lat": 41.909493,
+   "lon": -87.789133,
+   "osm": "node/7505548614",
+   "menuUrl": "https://www.tacoburritoking.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Super King Burrito",
+     "price": 14.75
+    },
+    {
+     "name": "King Burrito",
+     "price": 11.95
+    },
+    {
+     "name": "Junior Burrito",
+     "price": 9.75
+    },
+    {
+     "name": "Burrito Bowl",
+     "price": 12.5
+    },
+    {
+     "name": "Breakfast Burrito",
+     "price": 9.5
+    },
+    {
+     "name": "Steak & Eggs",
+     "price": 16.5
+    },
+    {
+     "name": "Veggie Nachos",
+     "price": 10.95
+    },
+    {
+     "name": "Super Nachos",
+     "price": 12.75
+    }
+   ],
+   "typical": {
+    "entreeMedian": 12.22,
+    "drinkMedian": null,
+    "perPerson": 12.22,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "M'dakhan",
+   "type": "restaurant",
+   "cuisine": "middle eastern",
+   "street": "9115 Harlem Avenue",
+   "city": "Bridgeview",
+   "postcode": "60455",
+   "lat": 41.725892,
+   "lon": -87.798408,
+   "osm": "way/1194166063",
+   "menuUrl": "https://www.mdakhan.com/menus",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Fried Halloumi Cheese",
+     "price": 11.99
+    },
+    {
+     "name": "Shrimp Scampi",
+     "price": 22.99
+    },
+    {
+     "name": "Spicy Potatoes",
+     "price": 7.99
+    },
+    {
+     "name": "Hummus with Meat",
+     "price": 17.99
+    },
+    {
+     "name": "Hot & Spicy Filet Mignon",
+     "price": 24.99
+    },
+    {
+     "name": "Hot & Spicy Chicken Breast",
+     "price": 21.99
+    },
+    {
+     "name": "Fresh Orange Juice",
+     "price": 6.99
+    },
+    {
+     "name": "Apple Juice",
+     "price": 6.99
+    },
+    {
+     "name": "Rolled Mansaf with Jameed dipping sauce (8 pcs)",
+     "price": 17.99
+    },
+    {
+     "name": "Lentil Soup",
+     "price": 4.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 22.99,
+    "drinkMedian": 6.99,
+    "perPerson": 29.98,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Balcanico",
+   "type": "restaurant",
+   "cuisine": "balkan",
+   "street": "737 Plainfield Road",
+   "city": "Darien",
+   "postcode": "60561",
+   "lat": 41.752999,
+   "lon": -87.963206,
+   "osm": "node/13131684248",
+   "menuUrl": "https://www.balcanicodarien.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Meat Burek",
+     "price": 11.5
+    },
+    {
+     "name": "Cheese Burek",
+     "price": 11.5
+    },
+    {
+     "name": "Pizza Burek",
+     "price": 11.5
+    },
+    {
+     "name": "Cappuccino",
+     "price": 6.5
+    },
+    {
+     "name": "Espresso",
+     "price": 5.25
+    },
+    {
+     "name": "Greek Salad",
+     "price": 15.0
+    },
+    {
+     "name": "Cheese & Spinach Pie",
+     "price": 11.5
+    }
+   ],
+   "typical": {
+    "entreeMedian": 11.5,
+    "drinkMedian": 5.88,
+    "perPerson": 17.38,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Jonny Cab's",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "",
+   "city": "",
+   "postcode": "",
+   "lat": 41.75027,
+   "lon": -87.91173,
+   "osm": "node/10837806894",
+   "menuUrl": "https://jonnycabs.com/menu-1.html",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Soft shell crab",
+     "price": 14.0
+    },
+    {
+     "name": "Marinated Grilled Shrimp",
+     "price": 11.0
+    },
+    {
+     "name": "Avocado & Mango Salsa",
+     "price": 16.0
+    },
+    {
+     "name": "Baked Potato Skins",
+     "price": 10.0
+    },
+    {
+     "name": "Braised Pork Chops",
+     "price": 12.0
+    },
+    {
+     "name": "Cream of Asparagus",
+     "price": 14.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 13.0,
+    "drinkMedian": null,
+    "perPerson": 13.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Pop's Italian Beef",
+   "type": "fast_food",
+   "cuisine": "sandwich",
+   "street": "7301 183rd Street",
+   "city": "Tinley Park",
+   "postcode": "60477",
+   "lat": 41.558099,
+   "lon": -87.795755,
+   "osm": "node/7543321338",
+   "menuUrl": "https://popsbeef.com/menus/tinley-park/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Italian Beef",
+     "price": 8.49
+    },
+    {
+     "name": "Beef-n-Cheddar",
+     "price": 8.99
+    },
+    {
+     "name": "Beef-n-Cheddar Croissant",
+     "price": 9.69
+    },
+    {
+     "name": "B.B.Q. Beef",
+     "price": 8.99
+    },
+    {
+     "name": "Combo (Beef & Sausage)",
+     "price": 9.49
+    },
+    {
+     "name": "Breaded Steak Sandwich",
+     "price": 7.49
+    },
+    {
+     "name": "Tea",
+     "price": 2.09
+    },
+    {
+     "name": "Italian Sausage",
+     "price": 6.69
+    },
+    {
+     "name": "Meatball Sandwich",
+     "price": 6.49
+    }
+   ],
+   "typical": {
+    "entreeMedian": 8.99,
+    "drinkMedian": 2.09,
+    "perPerson": 11.08,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Maple-N-Jams",
+   "type": "restaurant",
+   "cuisine": "",
+   "street": "6814 West 87th Street",
+   "city": "Burbank",
+   "postcode": "60459",
+   "lat": 41.73403,
+   "lon": -87.790302,
+   "osm": "node/2300380663",
+   "menuUrl": "https://maplenjams.com/burbank-burbank-maple-n-jams-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Gyro Meat & Eggs",
+     "price": 14.99
+    },
+    {
+     "name": "Ranchero Skillet",
+     "price": 16.99
+    },
+    {
+     "name": "Philly Skillet",
+     "price": 24.99
+    },
+    {
+     "name": "Corned Beef Brisket",
+     "price": 17.99
+    },
+    {
+     "name": "Country Skillet",
+     "price": 15.99
+    },
+    {
+     "name": "House Skillet",
+     "price": 16.99
+    },
+    {
+     "name": "Avocado Toast",
+     "price": 12.99
+    },
+    {
+     "name": "The Donut French Toast",
+     "price": 14.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 16.99,
+    "drinkMedian": null,
+    "perPerson": 16.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Dao Sushi and Thai",
+   "type": "restaurant",
+   "cuisine": "thai",
+   "street": "",
+   "city": "",
+   "postcode": "",
+   "lat": 41.749964,
+   "lon": -87.911652,
+   "osm": "node/10837806892",
+   "menuUrl": "https://daosushiandthai.com/menu/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Deep-fried shrimp and vegetables",
+     "price": 9.0
+    },
+    {
+     "name": "Chicken",
+     "price": 10.0
+    },
+    {
+     "name": "Beef",
+     "price": 12.0
+    },
+    {
+     "name": "Walu",
+     "price": 13.0
+    },
+    {
+     "name": "Vegetable or Chicken",
+     "price": 15.0
+    },
+    {
+     "name": "Edamame",
+     "price": 5.0
+    },
+    {
+     "name": "Pan fried dumpling",
+     "price": 7.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 12.0,
+    "drinkMedian": null,
+    "perPerson": 12.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "All Blue Sushi and Hibachi",
+   "type": "restaurant",
+   "cuisine": "asian",
+   "street": "194 South Bolingbrook Drive",
+   "city": "",
+   "postcode": "60440",
+   "lat": 41.695767,
+   "lon": -88.067631,
+   "osm": "node/13531359501",
+   "menuUrl": "https://www.allbluebolingbrook.com/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Salmon Yaki (2pcs)",
+     "price": 7.25
+    },
+    {
+     "name": "Oysters (4pcs)",
+     "price": 7.95
+    },
+    {
+     "name": "Takoyaki (5pcs)",
+     "price": 9.95
+    },
+    {
+     "name": "Shrimp Hibachi (8pcs)",
+     "price": 17.95
+    },
+    {
+     "name": "Sushi Sashimi Combo",
+     "price": 17.95
+    },
+    {
+     "name": "Sushi Regular",
+     "price": 17.95
+    },
+    {
+     "name": "Brown Sugar Bubble Milk Tea",
+     "price": 4.75
+    },
+    {
+     "name": "Bubble Black Milk Tea",
+     "price": 4.75
+    },
+    {
+     "name": "Seaweed Salad",
+     "price": 5.75
+    },
+    {
+     "name": "House Salad",
+     "price": 4.25
+    }
+   ],
+   "typical": {
+    "entreeMedian": 17.95,
+    "drinkMedian": 4.75,
+    "perPerson": 22.7,
+    "basis": "computed: median entr\u00e9e + median drink price from this menu"
+   }
+  },
+  {
+   "name": "Yerbabuena Mexican Cuisine",
+   "type": "restaurant",
+   "cuisine": "mexican",
+   "street": "4734 Main Street",
+   "city": "Lisle",
+   "postcode": "60532",
+   "lat": 41.799529,
+   "lon": -88.075063,
+   "osm": "way/652067456",
+   "menuUrl": "https://yerbabuenacuisine.com/lisle-yerba-buena-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Elote Rostizado",
+     "price": 12.0
+    },
+    {
+     "name": "Ceviche de Camaron",
+     "price": 13.0
+    },
+    {
+     "name": "Queso Fundido Chorizo",
+     "price": 12.0
+    },
+    {
+     "name": "Caldo de Pollo",
+     "price": 16.0
+    },
+    {
+     "name": "Pozole Verde De Pollo",
+     "price": 16.0
+    },
+    {
+     "name": "Tamales de Puerco",
+     "price": 18.0
+    },
+    {
+     "name": "Salsa Taste",
+     "price": 6.0
+    },
+    {
+     "name": "Tortilla Soup",
+     "price": 6.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 14.5,
+    "drinkMedian": null,
+    "perPerson": 14.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Capri Lounge & Grill",
+   "type": "restaurant",
+   "cuisine": "italian",
+   "street": "131 Market Street",
+   "city": "Willow Springs",
+   "postcode": "60480",
+   "lat": 41.733504,
+   "lon": -87.87632,
+   "osm": "node/13374876546",
+   "menuUrl": "https://www.capriloungeandgrill.com/menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Lasagna",
+     "price": 17.95
+    },
+    {
+     "name": "Eggplant Rollattini Over Pasta",
+     "price": 17.95
+    },
+    {
+     "name": "Big Joe",
+     "price": 16.95
+    },
+    {
+     "name": "Italian Beef",
+     "price": 12.95
+    },
+    {
+     "name": "Italian Sausage",
+     "price": 12.95
+    },
+    {
+     "name": "Beef and sausage",
+     "price": 13.95
+    },
+    {
+     "name": "Eggplant Rotillini w/Vodka sauce",
+     "price": 12.0
+    },
+    {
+     "name": "Grilled chicken and alfredo sauce",
+     "price": 13.95
+    }
+   ],
+   "typical": {
+    "entreeMedian": 15.45,
+    "drinkMedian": null,
+    "perPerson": 15.45,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Barrel & Vine",
+   "type": "restaurant",
+   "cuisine": "american",
+   "street": "206 Main Street",
+   "city": "Lemont",
+   "postcode": "60439",
+   "lat": 41.673512,
+   "lon": -88.00151,
+   "osm": "node/13671735437",
+   "menuUrl": "https://www.barrelvine.net/",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "IMPORTED BURRATA",
+     "price": 14.0
+    },
+    {
+     "name": "POLISH STYLE PIEROGI",
+     "price": 15.0
+    },
+    {
+     "name": "MANGO AVOCADO  SHRIMP CEVICHE",
+     "price": 16.0
+    },
+    {
+     "name": "CRAB CAKES",
+     "price": 24.0
+    },
+    {
+     "name": "B&V BRUSSELS SPROUTS  PLATTER",
+     "price": 12.0
+    },
+    {
+     "name": "MEDITERRANEAN SQUID STEAK",
+     "price": 18.0
+    },
+    {
+     "name": "SLOW ROASTED  TOMATO BRUSCHETTA",
+     "price": 16.0
+    },
+    {
+     "name": "BRI & FIGS CROSTINI",
+     "price": 13.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 15.5,
+    "drinkMedian": null,
+    "perPerson": 15.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Di\u2019vino",
+   "type": "restaurant",
+   "cuisine": "mediterranean",
+   "street": "1527 South Harlem Avenue",
+   "city": "Forest Park",
+   "postcode": "60130",
+   "lat": 41.858558,
+   "lon": -87.804168,
+   "osm": "node/4203574594",
+   "menuUrl": "https://www.divinoforestpark.com/dinner-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Patatas Bravas",
+     "price": 11.0
+    },
+    {
+     "name": "Goat Cheese",
+     "price": 18.0
+    },
+    {
+     "name": "Saut\u00e9ed Clams",
+     "price": 19.0
+    },
+    {
+     "name": "Mejillones Alla Marinara",
+     "price": 19.0
+    },
+    {
+     "name": "Ceviche of the Day",
+     "price": 21.0
+    },
+    {
+     "name": "Gambas Al Ajillo",
+     "price": 24.0
+    },
+    {
+     "name": "Crab Cake",
+     "price": 19.0
+    },
+    {
+     "name": "Short Rib Crostini",
+     "price": 19.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 19.0,
+    "drinkMedian": null,
+    "perPerson": 19.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Al Bawadi Grill",
+   "type": "restaurant",
+   "cuisine": "middle eastern",
+   "street": "7216 West 87th Street",
+   "city": "Bridgeview",
+   "postcode": "60455",
+   "lat": 41.733813,
+   "lon": -87.801197,
+   "osm": "way/1204001130",
+   "menuUrl": "https://albawadigrill.com/bridgeview-bridgeview-al-bawadi-grill-food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Hummus with Meat",
+     "price": 14.99
+    },
+    {
+     "name": "Makdous",
+     "price": 8.99
+    },
+    {
+     "name": "FETA CHEESE",
+     "price": 9.99
+    },
+    {
+     "name": "Fried Halloumi Cheese",
+     "price": 11.99
+    },
+    {
+     "name": "Batata Harra",
+     "price": 7.99
+    },
+    {
+     "name": "Foul Moudammas",
+     "price": 7.99
+    },
+    {
+     "name": "House Salad",
+     "price": 6.99
+    },
+    {
+     "name": "Chopped Arabic Salad",
+     "price": 6.99
+    }
+   ],
+   "typical": {
+    "entreeMedian": 7.99,
+    "drinkMedian": null,
+    "perPerson": 7.99,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "Emilio's Tapas Bar",
+   "type": "restaurant",
+   "cuisine": "spanish",
+   "street": "4100 Roosevelt Road",
+   "city": "Hillside",
+   "postcode": "60162",
+   "lat": 41.863451,
+   "lon": -87.884919,
+   "osm": "way/225789826",
+   "menuUrl": "https://emiliostapas.com/food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Crema De Champi\u00f1ones",
+     "price": 9.5
+    },
+    {
+     "name": "Ensalada De La Casa",
+     "price": 9.0
+    },
+    {
+     "name": "Aceitunas",
+     "price": 9.0
+    },
+    {
+     "name": "Tortilla A La Espa\u00f1ola Con Ensalada",
+     "price": 9.25
+    },
+    {
+     "name": "Patatas Con Alioli",
+     "price": 12.5
+    },
+    {
+     "name": "Pollo Al Curri",
+     "price": 14.5
+    },
+    {
+     "name": "Spanish Rice",
+     "price": 4.75
+    },
+    {
+     "name": "Spanish Garlic Fries",
+     "price": 4.5
+    }
+   ],
+   "typical": {
+    "entreeMedian": 13.5,
+    "drinkMedian": null,
+    "perPerson": 13.5,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  },
+  {
+   "name": "La Caba\u00f1ita",
+   "type": "restaurant",
+   "cuisine": "mexican",
+   "street": "",
+   "city": "",
+   "postcode": "",
+   "lat": 41.749786,
+   "lon": -87.911908,
+   "osm": "node/10837806891",
+   "menuUrl": "https://lacabanitaburrridge.com/food-menu",
+   "retrieved": "2026-10-12",
+   "items": [
+    {
+     "name": "Ceviche",
+     "price": 16.0
+    },
+    {
+     "name": "Pozole",
+     "price": 16.0
+    },
+    {
+     "name": "Bistec ala Mexicana",
+     "price": 17.0
+    },
+    {
+     "name": "Steak Milanesa",
+     "price": 17.0
+    },
+    {
+     "name": "Chicken en Mole",
+     "price": 16.0
+    },
+    {
+     "name": "Pollo Indije\u00f1a",
+     "price": 16.0
+    },
+    {
+     "name": "Cheese Nachos",
+     "price": 5.0
+    },
+    {
+     "name": "Caldo de Res / Beef Soup",
+     "price": 16.0
+    }
+   ],
+   "typical": {
+    "entreeMedian": 16.0,
+    "drinkMedian": null,
+    "perPerson": 16.0,
+    "basis": "computed: median entr\u00e9e price from this menu (no drink price published)"
+   }
+  }
+ ]
+}

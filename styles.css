@@ -118,3 +118,11 @@ details p{color:var(--muted);margin:10px 0 0;font-size:.95rem}
 .more>section{padding-left:0;padding-right:0}.more h2{font-size:1.4rem;margin-top:36px}
 #outo,#sout{min-height:200px}
 @media(max-width:700px){.one input{width:100%}.one .seg{width:100%;display:flex}.one .segb{flex:1;padding:8px 4px}}
+/* v9 menu-priced places */
+.one #nbud{width:150px}.sec{margin:26px 0 4px;font-size:1rem}.sec small{font-weight:400;margin-left:6px}
+.places.priced>li{display:block;padding:0}.mp details{border:0;padding:0}.mp details:first-of-type{border-top:0}
+.mp summary{display:flex;justify-content:space-between;gap:12px;padding:14px 0;align-items:center}.mp summary::after{content:none}
+.mp .pp{text-align:right;white-space:nowrap}.mp .pp b{font-size:1.25rem;letter-spacing:-.02em;color:var(--accent);display:block}.mp .pp small{color:var(--muted);font-size:.7rem}
+.menu{list-style:none;padding:0 0 4px;margin:0;font-size:.88rem}.menu li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dashed var(--line)}.menu li span{min-width:0}.menu b{font-weight:500}
+.mp .src{margin:8px 0 14px}
+@media(max-width:700px){.one #nbud{width:100%}}
