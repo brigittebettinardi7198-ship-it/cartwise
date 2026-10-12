@@ -9,10 +9,10 @@
 <meta property="og:title" content="CartWise: Compare Grocery Prices by ZIP">
 <meta property="og:description" content="Real, sourced organic grocery, gas and restaurant prices. Free, no account.">
 <meta property="og:type" content="website">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=7">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"WebApplication","@id":"https://brigittebettinardi7198-ship-it.github.io/cartwise/#app","name":"CartWise","url":"https://brigittebettinardi7198-ship-it.github.io/cartwise/","applicationCategory":"FinanceApplication","applicationSubCategory":"Grocery price comparison","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free web tool that gives benchmark prices for organic groceries (USDA AMS national average advertised prices for organic produce), AAA state average gas prices by ZIP code, and restaurant meal estimates with tax and tip based on real chain menu prices. Each number shows its source and date.","featureList":["Organic shopping list benchmarked against USDA national average advertised organic prices","Store-by-store organic price comparison (Trader Joe's, Whole Foods) with source links","AAA state average gas prices by ZIP code","Restaurant cost estimator with tax and tip using real menu prices","Organic shopping tips (Dirty Dozen, Clean Fifteen, frozen and store-brand organic)","Unit-price, markdown timing, store-brand, shrinkflation and coupon-stacking tips","Optional dated shopper price reports"],"audience":{"@type":"Audience","geographicArea":{"@type":"Country","name":"United States"}},"publisher":{"@type":"Organization","name":"CartWise"}},
+{"@type":"WebApplication","@id":"https://brigittebettinardi7198-ship-it.github.io/cartwise/#app","name":"CartWise","url":"https://brigittebettinardi7198-ship-it.github.io/cartwise/","applicationCategory":"FinanceApplication","applicationSubCategory":"Grocery price comparison","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free web tool that gives benchmark prices for organic groceries (USDA AMS national average advertised prices for organic produce), AAA state average gas prices by ZIP code, and restaurant meal estimates with tax and tip based on real chain menu prices. Each number shows its source and date.","featureList":["Organic shopping list benchmarked against USDA national average advertised organic prices","Store-by-store organic price comparison (Trader Joe's, Whole Foods) with source links","AAA state average gas prices by ZIP code","Restaurant cost estimator with tax and tip using real menu prices","Find restaurants near a ZIP code with OpenStreetMap data, filtered by budget where prices are known","Organic shopping tips (Dirty Dozen, Clean Fifteen, frozen and store-brand organic)","Unit-price, markdown timing, store-brand, shrinkflation and coupon-stacking tips","Optional dated shopper price reports"],"audience":{"@type":"Audience","geographicArea":{"@type":"Country","name":"United States"}},"publisher":{"@type":"Organization","name":"CartWise"}},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Where do CartWise prices come from?","acceptedAnswer":{"@type":"Answer","text":"Organic grocery prices are national weighted-average advertised prices from the USDA Agricultural Marketing Service weekly retail report (FVWRETAIL, National Organic Summary). Gas prices are AAA state averages. Restaurant estimates use prices from chains' public online menus. Each number shows its source and retrieval date. CartWise never shows sample or invented prices."}},
 {"@type":"Question","name":"Is CartWise free?","acceptedAnswer":{"@type":"Answer","text":"Yes. CartWise is free and needs no account."}},
@@ -21,7 +21,8 @@
 {"@type":"Question","name":"What is shrinkflation?","acceptedAnswer":{"@type":"Answer","text":"Shrinkflation is when a product's package gets smaller while its price stays the same or rises. Compare the net weight and unit price rather than the shelf price."}},
 {"@type":"Question","name":"Can I stack coupons with cash-back apps?","acceptedAnswer":{"@type":"Answer","text":"Usually, yes. A typical stack is a store sale price, plus a digital store coupon, plus a manufacturer coupon where the store allows it, plus a cash-back app rebate after purchase. Check each store's coupon policy."}},
 {"@type":"Question","name":"What do the organic benchmark prices mean?","acceptedAnswer":{"@type":"Answer","text":"They are USDA's national weighted-average advertised (sale and circular) prices for organic produce at major US grocery chains for the latest week. Use them as a benchmark. If your store charges much more, look at store brands, Aldi, or Walmart."}},
-{"@type":"Question","name":"Can I compare organic prices between stores?","acceptedAnswer":{"@type":"Answer","text":"Yes. Compare stores shows real organic produce prices from Trader Joe's and Whole Foods public websites (retrieved Oct 12, 2026, each with a source link) next to the USDA benchmark. Sprouts, Kroger, Walmart, Aldi, Target, Costco, Safeway and Publix are blank because their sites require choosing a store before showing prices, or didn't show organic produce prices when we checked."}},
+{"@type":"Question","name":"Can I compare organic prices between stores?","acceptedAnswer":{"@type":"Answer","text":"Yes. Compare stores shows real organic produce prices from Trader Joe's and Whole Foods public websites (retrieved Oct 12, 2026, each with a source link) next to the USDA benchmark. Target and Costco did not publish organic produce prices that could be verified. Sprouts, Kroger, Walmart, Aldi, Safeway and Publix have not been checked yet."}},
+{"@type":"Question","name":"How does Restaurants near you work?","acceptedAnswer":{"@type":"Answer","text":"CartWise turns your ZIP into a map location with the free Zippopotam.us service and finds nearby restaurants and fast-food places in OpenStreetMap through the Overpass API. A price is shown only when OpenStreetMap lists one, or when the place matches a chain whose menu prices CartWise has verified (currently Denny's). Otherwise it shows price not listed. CartWise never invents prices or ratings."}},
 {"@type":"Question","name":"Why are there no fast-food prices?","acceptedAnswer":{"@type":"Answer","text":"Major fast-food chains (McDonald's, Taco Bell, Wendy's, Chick-fil-A, Subway, Chipotle, Panera) only show menu prices after a store is chosen, so CartWise has no verifiable national price and does not invent one."}},
 {"@type":"Question","name":"Should I buy everything organic?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. Prioritize organic for items on the EWG Dirty Dozen list, buy Clean Fifteen produce conventionally, and use frozen and store-brand organic to save."}},
 {"@type":"Question","name":"How does the restaurant estimator work?","acceptedAnswer":{"@type":"Answer","text":"It uses median real menu prices by category (entrees, kids' meals, drinks, appetizers, desserts), multiplied by party size and selected options, plus sales tax and tip calculated on the pre-tax subtotal. Results are estimates, because menu prices vary by location."}},
@@ -36,8 +37,8 @@
 <main>
 <section class="hero wrap">
   <p class="eyebrow">Free organic grocery price benchmarks for US shoppers</p>
-  <h1>Pay less for organic groceries.</h1>
-  <p class="lede">Real, sourced numbers only: USDA benchmark prices for organic groceries, today's AAA gas averages for your state, and restaurant estimates from real menu prices. Every number shows its source and date.</p>
+  <h1>Spend less.<br>Know more.</h1>
+  <p class="lede">Real prices for organic groceries, gas, and eating out. Every number is sourced and dated.</p>
 </section>
 
 <div class="wrap tabs" role="tablist">
@@ -49,8 +50,8 @@
 <section class="wrap card">
   <div class="seg" role="tablist"><button type="button" class="segb on" data-mode="bench">Benchmarks</button><button type="button" class="segb" data-mode="stores">Compare stores</button></div>
   <div id="m-bench">
-  <h2 class="ph">Organic groceries: real benchmark prices for your list</h2>
-  <p class="muted">USDA national average organic prices from major US grocery chains. Add items to see a benchmark for each one instantly.</p>
+  <h2 class="ph">Organic benchmarks</h2>
+  <p class="muted">USDA national averages, updated weekly.</p>
   <div class="adder">
     <input id="osearch" list="olist" autocomplete="off" placeholder="Add an organic item, e.g. berries, kale, apples" aria-label="Add an organic item">
     <button id="oadd" type="button">Add</button>
@@ -61,8 +62,8 @@
   <div id="outo" aria-live="polite"></div>
   </div>
   <div id="m-stores" hidden>
-    <h2 class="ph">Compare organic prices by store</h2>
-    <p class="muted">Real prices from retailers' public websites, each with a source link and date. A blank means the store doesn't publish that price.</p>
+    <h2 class="ph">Compare stores</h2>
+    <p class="muted">Real prices from public store websites.</p>
     <div id="schips" class="chips"></div>
     <div id="sout" aria-live="polite"></div>
   </div>
@@ -77,14 +78,14 @@
 
 <div id="restaurants" class="panel" hidden>
 <section class="wrap card">
-  <h2 class="ph">Restaurant cost estimator</h2>
+  <h2 class="ph">Eating out</h2>
   <div class="split2">
     <div class="sub"><h3>🍔 Fast food <small class="muted">(no tip)</small></h3>
       <div class="empty"><b>No verified fast-food prices yet.</b><p>We checked McDonald's, Taco Bell, Wendy's, Chick-fil-A, Subway, Chipotle and Panera on Oct 12, 2026. None of them show menu prices online until you pick a store, so we can't publish a real national price. We don't estimate fast food with made-up numbers.</p></div>
       <div class="vs"><b>Fast food vs. sit-down</b><p class="muted">This side-by-side comparison will appear once verified fast-food prices are available.</p></div>
     </div>
     <div class="sub"><h3>🍽️ Sit-down <small class="muted">(with tip)</small></h3>
-  <p class="muted">Estimate a meal out from real menu prices, with live totals.</p>
+  
   <form id="rf" class="rform">
     <label>Party<select name="party"><option value="date">Couple date night</option><option value="family">Family of 4 (2 adults, 2 kids)</option><option value="custom">Custom</option></select></label>
     
@@ -96,13 +97,24 @@
   <div id="rout" aria-live="polite"></div>
     </div>
   </div>
+  <div class="near">
+    <h3 class="ph" style="font-size:1.4rem">Restaurants near you</h3>
+    <p class="muted">Places from OpenStreetMap. Prices appear only where they're verified.</p>
+    <form id="nf">
+      <label>ZIP<input id="nzip" inputmode="numeric" maxlength="5" placeholder="60614" autocomplete="postal-code"></label>
+      <label>Budget per person<input id="nbud" type="number" min="1" step="1" placeholder="e.g. 20"></label>
+      <label>Type<select id="ntype"><option value="all">All</option><option value="fast_food">Fast food</option><option value="restaurant">Sit-down</option></select></label>
+      <button type="submit">Search</button>
+    </form>
+    <div id="nout" aria-live="polite"></div>
+  </div>
 </section>
 </div>
 
 <div id="gas" class="panel" hidden>
 <section class="wrap card">
-  <h2 class="ph">Gas prices: your state's average today</h2>
-  <p class="muted">Type a 5-digit ZIP code to see your state's AAA average right away.</p>
+  <h2 class="ph">Gas</h2>
+  <p class="muted">Your state's AAA average, by ZIP.</p>
   <form id="gf" class="gform"><label>ZIP code<input id="zipg" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label></form>
   <div id="gout" aria-live="polite"></div>
   <div class="grid" style="margin-top:16px">
@@ -146,7 +158,8 @@
   <details><summary>What is shrinkflation?</summary><p>It's when the package shrinks while the price holds or rises. Check the net weight and the unit price.</p></details>
   <details><summary>Can I stack coupons with cash-back apps?</summary><p>Usually: sale price + store digital coupon + manufacturer coupon (if allowed) + cash-back app rebate.</p></details>
   <details><summary>What do the organic benchmark prices mean?</summary><p>They're USDA's national weighted-average advertised (sale and circular) prices for organic produce at major US grocery chains for the latest week. Use them as a benchmark. If your store charges much more, look at store brands, Aldi, or Walmart.</p></details>
-  <details><summary>Can I compare organic prices between stores?</summary><p>Yes. Compare stores shows real organic produce prices from Trader Joe's and Whole Foods public websites next to the USDA benchmark, with the cheapest highlighted when sizes are comparable. Sprouts, Kroger, Walmart, Aldi, Target, Costco, Safeway and Publix are left blank because their sites require choosing a store before showing prices, or didn't show organic produce prices when we checked.</p></details>
+  <details><summary>Can I compare organic prices between stores?</summary><p>Yes. Compare stores shows real organic produce prices from Trader Joe's and Whole Foods public websites next to the USDA benchmark, with the cheapest highlighted when sizes are comparable. Target and Costco didn't publish organic produce prices we could verify. Sprouts, Kroger, Walmart, Aldi, Safeway and Publix haven't been checked yet.</p></details>
+  <details><summary>How does "Restaurants near you" work?</summary><p>Your ZIP is turned into a map location with the free Zippopotam.us service. Nearby restaurants and fast-food places come from OpenStreetMap (Overpass API). We show a price only when OpenStreetMap lists one, or when the place matches a chain whose menu prices we've verified (currently Denny's). Otherwise it says "price not listed". We never invent prices or ratings.</p></details>
   <details><summary>Why are there no fast-food prices?</summary><p>Major fast-food chains only show menu prices after you choose a store, so there's no verifiable national price to publish. CartWise doesn't invent numbers.</p></details>
   <details><summary>Should I buy everything organic?</summary><p>Not necessarily. Prioritize organic for items on the EWG Dirty Dozen list, buy Clean Fifteen produce conventionally, and use frozen and store-brand organic to save.</p></details>
   <details><summary>How does the restaurant estimator work?</summary><p>It takes median real menu prices by category (entrées, kids' meals, drinks, appetizers, desserts), multiplies them by your party size and choices, then adds sales tax and tip (tip on the pre-tax subtotal). The result is an estimate, because prices vary by location.</p></details>
@@ -157,9 +170,10 @@
   <p><b>Data notice:</b> CartWise shows only sourced, dated public data: USDA AMS organic retail report, AAA state gas averages, and chain online menus. Prices at your store will differ. Not affiliated with USDA, AAA, Kroger, Walmart, or any restaurant chain.</p>
   <p>© 2026 CartWise (placeholder name)</p>
 </footer>
-<script src="data.js?v=6"></script>
-<script src="tips.js?v=6"></script>
-<script src="app.js?v=6"></script>
-<script src="extras.js?v=6"></script>
+<script src="data.js?v=7"></script>
+<script src="tips.js?v=7"></script>
+<script src="app.js?v=7"></script>
+<script src="extras.js?v=7"></script>
+<script src="near.js?v=7"></script>
 </body>
 </html>

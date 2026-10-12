@@ -10,17 +10,6 @@
    "note": "Online prices on wholefoodsmarket.com for the default delivery location (ZIP 98101, Seattle), non-Prime price. Prices vary by store."
   }
  },
- "notPublished": [
-  "Sprouts",
-  "Kroger",
-  "Walmart",
-  "Aldi",
-  "Target",
-  "Costco",
-  "Safeway",
-  "Publix"
- ],
- "notPublishedReason": "These retailers' public pages either require choosing a store before showing prices or didn't show organic produce prices when we checked, so we leave them blank.",
  "items": [
   {
    "item": "bananas",
@@ -358,5 +347,20 @@
    "size": "1 each",
    "sourceUrl": "https://www.wholefoodsmarket.com/search?text=organic%20cucumbers"
   }
+ ],
+ "notPublished": {
+  "stores": [
+   "Target",
+   "Costco"
+  ],
+  "reason": "Checked Oct 12, 2026: Target's search page showed no prices without a store, and Costco's online organic items are bulk pantry goods, not produce."
+ },
+ "notChecked": [
+  "Sprouts",
+  "Kroger",
+  "Walmart",
+  "Aldi",
+  "Safeway",
+  "Publix"
  ]
 }

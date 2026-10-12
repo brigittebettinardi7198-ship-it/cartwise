@@ -79,7 +79,7 @@ async function renderStores() {
   }).join("");
   $("#sout").innerHTML = `<p class="note">${NOTE}</p>
   <div class="tbl"><table class="stbl"><thead><tr><th>Item</th>${keys.map(k => `<th>${esc(st.stores[k].name)}</th>`).join("")}<th>USDA benchmark</th></tr></thead><tbody>${rowsHtml || `<tr><td colspan="4" class="muted">Tap items above to compare.</td></tr>`}</tbody></table></div>
-  <p class="muted"><small>Green = cheapest per unit when sizes are comparable. Struck-through = regular price (sale shown). <b>Not published:</b> ${st.notPublished.join(", ")}. ${esc(st.notPublishedReason)}</small></p>
+  <p class="muted"><small>Green = cheapest per unit when sizes are comparable. Struck-through = regular price (sale shown). <b>Not published:</b> ${st.notPublished.stores.join(", ")}. ${esc(st.notPublished.reason)} <b>Not checked yet:</b> ${st.notChecked.join(", ")}.</small></p>
   <p class="src">${keys.map(k => `<b>${esc(st.stores[k].name)}:</b> ${esc(st.stores[k].note)}`).join(" ")} Retrieved ${esc(st.retrieved)}. USDA benchmark: national average advertised price, week of ${esc(org?.reportDate || "")}.</p>`;
 }
 document.addEventListener("click", e => { const b = e.target.closest("[data-sel]"); if (!b) return; const v = b.dataset.sel; SEL = SEL.includes(v) ? SEL.filter(x => x !== v) : [...SEL, v]; localStorage.setItem("cw_sel", JSON.stringify(SEL)); renderStores(); });
