@@ -4,7 +4,7 @@
 // GitHub Pages (static): optional endpoints are off by default. Set these to a deployed function URL to enable them.
 const CW = { krogerFn: null, reportsFn: null };
 const loadJSON = async p => { try { const r = await fetch(p); return r.ok ? r.json() : null; } catch { return null; } };
-const DATA = { org: loadJSON("data/organic_usda.json"), gas: loadJSON("data/gas_aaa.json"), menu: loadJSON("data/menu_dennys.json") };
+const DATA = { org: loadJSON("data/organic_usda.json"), gas: loadJSON("data/gas_aaa.json") };
 
 /* Optional: returns [] if the function is not deployed or has no key (503). */
 async function krogerPrices(zip, items) {

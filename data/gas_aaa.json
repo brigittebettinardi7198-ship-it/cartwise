@@ -2,6 +2,13 @@
  "source": "AAA Gas Prices, state averages",
  "sourceUrl": "https://gasprices.aaa.com/state-gas-price-averages/",
  "retrieved": "2026-10-12",
+ "national": {
+  "regular": 4.356,
+  "midgrade": 4.849,
+  "premium": 5.246,
+  "diesel": 6.266
+ },
+ "nationalSourceUrl": "https://gasprices.aaa.com/",
  "states": {
   "Alaska": {
    "regular": 5.028,
