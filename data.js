@@ -17,3 +17,4 @@ async function shopperReports(kind, zip) {
   try { const r = await fetch(`${CW.reportsFn}?kind=${kind}&zip=${zip}`); return r.ok ? (await r.json()).rows || [] : []; } catch { return []; }
 }
 const matchKey = (it, keys) => keys.find(k => it.includes(k) || k.includes(it));
+DATA.stores = loadJSON("data/organic_stores.json");

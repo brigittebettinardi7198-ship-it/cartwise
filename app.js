@@ -58,3 +58,29 @@ document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
   document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== b.dataset.t); history.replaceState(null, "", "#" + b.dataset.t);
 });
 const tb = document.querySelector(`.tabs button[data-t="${location.hash.slice(1)}"]`); if (tb) tb.click();
+/* Compare stores mode */
+document.querySelectorAll(".segb").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".segb").forEach(x => x.classList.toggle("on", x === b));
+  $("#m-bench").hidden = b.dataset.mode !== "bench"; $("#m-stores").hidden = b.dataset.mode !== "stores"; localStorage.setItem("cw_mode", b.dataset.mode);
+});
+if (localStorage.getItem("cw_mode") === "stores") document.querySelector('.segb[data-mode="stores"]').click();
+let SEL = JSON.parse(localStorage.getItem("cw_sel") || "null");
+async function renderStores() {
+  const [st, org] = await Promise.all([DATA.stores, DATA.org]); if (!st) { $("#sout").innerHTML = `<div class="empty">Store data didn't load.</div>`; return; }
+  const all = [...new Set(st.items.map(i => i.item))]; SEL ||= ["strawberries", "spinach", "avocados", "carrots", "kale", "cucumbers", "sweet potatoes", "bananas"];
+  $("#schips").innerHTML = all.map(i => `<button type="button" class="chip${SEL.includes(i) ? " on" : ""}" data-sel="${esc(i)}">${esc(i)}${SEL.includes(i) ? ' <span aria-hidden="true">×</span>' : ""}</button>`).join("");
+  const keys = Object.keys(st.stores), per = r => r.price / r.qty;
+  const rowsHtml = SEL.filter(i => all.includes(i)).map(it => {
+    const rs = keys.map(k => st.items.find(x => x.item === it && x.store === k));
+    const dims = new Set(rs.filter(Boolean).map(r => r.dim)), comparable = rs.filter(Boolean).length > 1 && dims.size === 1;
+    const best = comparable ? Math.min(...rs.filter(Boolean).map(per)) : null;
+    const u = org ? matchRows(it, org).sort((a, b) => b.ads - a.ads)[0] : null;
+    return `<tr><th scope="row">${esc(it)}${rs.filter(Boolean).length > 1 && !comparable ? '<br><small class="muted">sizes differ</small>' : ""}</th>${rs.map(r => r ? `<td class="${comparable && per(r) === best ? "best" : ""}"><b>${money(r.price)}</b>${r.regular ? ` <s class="muted">${money(r.regular)}</s>` : ""}<br><small><a href="${r.sourceUrl}" target="_blank" rel="noopener">${esc(r.size)}</a></small></td>` : `<td class="np">not published</td>`).join("")}<td class="bm">${u ? `<b>${money(u.price)}</b><br><small class="muted">${esc(u.unit)}</small>` : '<span class="np">–</span>'}</td></tr>`;
+  }).join("");
+  $("#sout").innerHTML = `<p class="note">${NOTE}</p>
+  <div class="tbl"><table class="stbl"><thead><tr><th>Item</th>${keys.map(k => `<th>${esc(st.stores[k].name)}</th>`).join("")}<th>USDA benchmark</th></tr></thead><tbody>${rowsHtml || `<tr><td colspan="4" class="muted">Tap items above to compare.</td></tr>`}</tbody></table></div>
+  <p class="muted"><small>Green = cheapest per unit when sizes are comparable. Struck-through = regular price (sale shown). <b>Not published:</b> ${st.notPublished.join(", ")}. ${esc(st.notPublishedReason)}</small></p>
+  <p class="src">${keys.map(k => `<b>${esc(st.stores[k].name)}:</b> ${esc(st.stores[k].note)}`).join(" ")} Retrieved ${esc(st.retrieved)}. USDA benchmark: national average advertised price, week of ${esc(org?.reportDate || "")}.</p>`;
+}
+document.addEventListener("click", e => { const b = e.target.closest("[data-sel]"); if (!b) return; const v = b.dataset.sel; SEL = SEL.includes(v) ? SEL.filter(x => x !== v) : [...SEL, v]; localStorage.setItem("cw_sel", JSON.stringify(SEL)); renderStores(); });
+renderStores();
