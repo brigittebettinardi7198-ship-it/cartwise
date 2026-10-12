@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CartWise: Real Grocery, Gas & Restaurant Prices (BLS, AAA, Chain Menus)</title>
+<meta name="description" content="Price your grocery list at official BLS U.S. average prices, check AAA gas averages for your state by ZIP, and estimate restaurant bills from real menu prices. Sourced and dated.">
+<link rel="canonical" href="https://cartwise.example/">
+<meta property="og:title" content="CartWise: Compare Grocery Prices by ZIP">
+<meta property="og:description" content="Real, sourced grocery, gas and restaurant prices. Free, no account.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","@id":"https://cartwise.example/#app","name":"CartWise","url":"https://cartwise.example/","applicationCategory":"FinanceApplication","applicationSubCategory":"Grocery price comparison","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free web tool that shows official U.S. average grocery prices (BLS) for your shopping list, AAA state average gas prices by ZIP code, and restaurant meal estimates with tax and tip based on real chain menu prices. Each number shows its source and retrieval date.","featureList":["Shopping list priced at BLS U.S. average retail prices with year-over-year change","AAA state average gas prices by ZIP code","Restaurant cost estimator with tax and tip using real menu prices","Organic shopping tips (Dirty Dozen, Clean Fifteen, frozen and store-brand organic)","Unit-price, markdown timing, store-brand, shrinkflation and coupon-stacking tips","Optional dated shopper price reports"],"audience":{"@type":"Audience","geographicArea":{"@type":"Country","name":"United States"}},"publisher":{"@type":"Organization","name":"CartWise"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Where do CartWise prices come from?","acceptedAnswer":{"@type":"Answer","text":"Grocery prices are U.S. city averages from the Bureau of Labor Statistics Average Price Data. Gas prices are AAA state averages. Restaurant estimates use prices from chains' public online menus. Each number shows its source and retrieval date. CartWise never shows sample or invented prices."}},
+{"@type":"Question","name":"Is CartWise free?","acceptedAnswer":{"@type":"Answer","text":"Yes. CartWise is free and needs no account."}},
+{"@type":"Question","name":"What is a unit-price trap?","acceptedAnswer":{"@type":"Answer","text":"A unit-price trap happens when the bigger package costs more per ounce than a smaller one, or when a store shows unit prices in different units (per ounce vs. per count). Always compare the price per the same unit."}},
+{"@type":"Question","name":"When do grocery stores mark down meat and bread?","acceptedAnswer":{"@type":"Answer","text":"Many US supermarkets mark down meat close to its sell-by date, often in the morning, and mark down bakery items late in the day. Timing varies by store, so ask the meat or bakery department when they reduce prices."}},
+{"@type":"Question","name":"What is shrinkflation?","acceptedAnswer":{"@type":"Answer","text":"Shrinkflation is when a product's package gets smaller while its price stays the same or rises. Compare the net weight and unit price rather than the shelf price."}},
+{"@type":"Question","name":"Can I stack coupons with cash-back apps?","acceptedAnswer":{"@type":"Answer","text":"Usually, yes. A typical stack is a store sale price, plus a digital store coupon, plus a manufacturer coupon where the store allows it, plus a cash-back app rebate after purchase. Check each store's coupon policy."}},
+{"@type":"Question","name":"Should I buy everything organic?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. Prioritize organic for items on the EWG Dirty Dozen list, buy Clean Fifteen produce conventionally, and use frozen and store-brand organic to save."}},
+{"@type":"Question","name":"How does the restaurant estimator work?","acceptedAnswer":{"@type":"Answer","text":"It uses median real menu prices by category (entrees, kids' meals, drinks, appetizers, desserts), multiplied by party size and selected options, plus sales tax and tip calculated on the pre-tax subtotal. Results are estimates, because menu prices vary by location."}},
+{"@type":"Question","name":"Are the gas prices real?","acceptedAnswer":{"@type":"Answer","text":"Yes. CartWise shows AAA state average gas prices with the date retrieved. Individual station prices appear only when shoppers report them."}}
+]}]}
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav"><a class="logo" href="/">Cart<span>Wise</span></a><nav><a href="#how">Data</a><a href="#report">Report</a><a href="#faq">FAQ</a></nav></div>
+</header>
+<main>
+<section class="hero wrap">
+  <p class="eyebrow">Free grocery price comparison for US shoppers</p>
+  <h1>Pay less for the same groceries.</h1>
+  <p class="lede">Real, sourced numbers only: official U.S. average grocery prices, today's AAA gas averages for your state, and restaurant estimates built from real menu prices. Every number shows its source and retrieval date.</p>
+</section>
+
+<div class="wrap tabs" role="tablist">
+  <button role="tab" data-t="everyday" aria-selected="true">🛒 Everyday</button>
+  <button role="tab" data-t="organic" aria-selected="false">🌱 Organic</button>
+  <button role="tab" data-t="restaurants" aria-selected="false">🍽️ Restaurants</button>
+  <button role="tab" data-t="gas" aria-selected="false">⛽ Gas</button>
+</div>
+<div id="everyday" class="panel">
+<section id="compare" class="wrap card">
+  <h2 class="ph">Everyday groceries: your list vs. official U.S. average prices</h2>
+  <p class="muted">Monthly average retail prices from the U.S. Bureau of Labor Statistics, with the change from a year ago.</p>
+  <form id="f">
+    <label>ZIP code<input id="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" placeholder="e.g. 60614" required></label>
+    <label class="grow">Shopping list <small>(one item per line)</small>
+      <textarea id="list" rows="6" required>eggs
+milk
+ground beef
+chicken breast
+bread
+rice
+bananas
+coffee</textarea></label>
+    <button type="submit">Compare prices</button>
+  </form>
+  <div id="out" aria-live="polite"></div>
+</section>
+
+<section id="tips" class="wrap">
+  <h2>Tips for your list</h2>
+  <p class="muted" id="tipsnote">Run a comparison to get tips for your items. Here are tips that apply to nearly every trip:</p>
+  <div id="tipgrid" class="grid"></div>
+</section>
+
+</div>
+
+<div id="organic" class="panel" hidden>
+<section class="wrap card">
+  <h2 class="ph">Organic groceries: compare store-brand and national organic prices</h2>
+  <p class="muted">We only show organic store prices we can verify with a source and a date. Public pages for Kroger Simple Truth Organic, Walmart, Aldi SimplyNature, Whole Foods, and Trader Joe's don't publish fetchable shelf prices, so live organic prices appear only when the optional Kroger connection or shopper reports are switched on.</p>
+  <form id="fo">
+    <label>ZIP code<input id="zipo" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label>
+    <label class="grow">Organic list <small>(one item per line)</small>
+      <textarea id="listo" rows="6" required>eggs
+milk
+spinach
+strawberries
+bananas
+chicken breast
+frozen berries
+oats</textarea></label>
+    <button type="submit">Compare organic</button>
+  </form>
+  <div id="outo" aria-live="polite"></div>
+</section>
+<section class="wrap"><h2>Organic tips</h2><div id="orgtips" class="grid"></div></section>
+</div>
+
+<div id="restaurants" class="panel" hidden>
+<section class="wrap card">
+  <h2 class="ph">Restaurant cost estimator</h2>
+  <p class="muted">Estimate a meal out, including tax and tip, from real menu prices. Current data: Denny's online menu for one store. More chains will be added as we verify their menus.</p>
+  <form id="rf" class="rform">
+    <label>Party<select name="party"><option value="date">Couple date night</option><option value="family">Family of 4 (2 adults, 2 kids)</option><option value="custom">Custom</option></select></label>
+    
+    <div id="customRow" class="row" hidden><label>Adults<input name="adults" type="number" min="1" value="2"></label><label>Kids<input name="kids" type="number" min="0" value="0"></label></div>
+    <div class="checks"><label><input type="checkbox" name="drinks" checked> Drinks</label><label><input type="checkbox" name="app"> Appetizer</label><label><input type="checkbox" name="dessert"> Dessert</label></div>
+    <label>Sales tax %<input name="tax" type="number" step="0.25" value="8.5"></label>
+    <label>Tip %<select name="tip"><option>15</option><option selected>18</option><option>20</option><option>22</option></select></label>
+  </form>
+  <div id="rout" aria-live="polite"></div>
+</section>
+</div>
+
+<div id="gas" class="panel" hidden>
+<section class="wrap card">
+  <h2 class="ph">Gas prices: your state's average today</h2>
+  <p class="muted">Enter a ZIP code to see the AAA average for your state (regular, mid-grade, premium, diesel).</p>
+  <form id="gf" class="gform"><label>ZIP code<input id="zipg" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label><button type="submit">Check gas</button></form>
+  <div id="gout" aria-live="polite"></div>
+  <div class="grid" style="margin-top:16px">
+    <article class="tip"><span class="tag">Warehouse clubs</span><h3>Club gas is often the cheapest in town</h3><p>Costco, Sam's Club, and BJ's often sell gas well below nearby stations, but you need a membership. Check whether the fuel savings alone cover the annual fee: a 15-gallon weekly fill at 20¢ less per gallon saves about $156 a year.</p></article>
+    <article class="tip"><span class="tag">Fuel rewards</span><h3>Turn groceries into gas discounts</h3><p>Kroger Fuel Points and similar grocery rewards take cents off per gallon at participating stations. Rewards usually expire monthly, so use them before they lapse, and fill a full tank to get the most out of each redemption.</p></article>
+  </div>
+</section>
+</div>
+
+<section id="how" class="wrap how">
+  <h2>Where the numbers come from</h2>
+  <div class="grid three">
+    <div class="mini"><b>Groceries: BLS</b><p>Average retail food prices, U.S. city average, published monthly by the U.S. Bureau of Labor Statistics.</p></div>
+    <div class="mini"><b>Gas: AAA</b><p>State average prices from AAA's daily gas price survey.</p></div>
+    <div class="mini"><b>Restaurants: chain menus</b><p>Prices from chains' public online menus, with the store location. Prices vary by location.</p></div>
+  </div>
+  <p class="muted">Optional, when switched on: live Kroger store prices (free Kroger Developer API) and dated shopper reports. We never show made-up or sample prices. If we can't verify a number, we leave it out.</p>
+</section>
+
+<section id="report" class="wrap card">
+  <h2 class="ph">Report a price (optional)</h2>
+  <p class="muted">Saw a gas, menu, or grocery price? Report it. Each report is saved with its date and labeled "Shopper report."</p>
+  <form id="repf" class="rform">
+    <label>Type<select name="kind"><option value="gas">Gas station (regular)</option><option value="menu">Restaurant menu item</option><option value="grocery">Grocery item</option></select></label>
+    <label>Station / restaurant / store<input name="place" required maxlength="80"></label>
+    <label>Item <small>(not needed for gas)</small><input name="item" maxlength="80"></label>
+    <label>Price ($)<input name="price" type="number" step="0.001" min="0" required></label>
+    <label>ZIP<input name="zip" inputmode="numeric" maxlength="5" required></label>
+    <input name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+    <button type="submit">Submit price</button>
+  </form>
+  <p id="repmsg" class="muted" aria-live="polite"></p>
+</section>
+
+<section id="faq" class="wrap">
+  <h2>FAQ</h2>
+  <details><summary>Where do CartWise prices come from?</summary><p>Grocery prices are U.S. city averages from the Bureau of Labor Statistics. Gas prices are AAA state averages. Restaurant estimates use prices from chains' public online menus. Each number shows its source link and retrieval date. CartWise never shows sample or invented prices.</p></details>
+  <details><summary>Is CartWise free?</summary><p>Yes, and you don't need an account.</p></details>
+  <details><summary>What is a unit-price trap?</summary><p>It's when the bigger package costs more per ounce, or when shelf tags use different units. Compare the price per the same unit.</p></details>
+  <details><summary>When do stores mark down meat and bread?</summary><p>Meat is often reduced near its sell-by date, usually in the morning. Bakery items are often reduced late in the day. Ask your store's departments, since timing varies.</p></details>
+  <details><summary>What is shrinkflation?</summary><p>It's when the package shrinks while the price holds or rises. Check the net weight and the unit price.</p></details>
+  <details><summary>Can I stack coupons with cash-back apps?</summary><p>Usually: sale price + store digital coupon + manufacturer coupon (if allowed) + cash-back app rebate.</p></details>
+  <details><summary>Should I buy everything organic?</summary><p>Not necessarily. Prioritize organic for items on the EWG Dirty Dozen list, buy Clean Fifteen produce conventionally, and use frozen and store-brand organic to save.</p></details>
+  <details><summary>How does the restaurant estimator work?</summary><p>It takes median real menu prices by category (entrées, kids' meals, drinks, appetizers, desserts), multiplies them by your party size and choices, then adds sales tax and tip (tip on the pre-tax subtotal). The result is an estimate, because prices vary by location.</p></details>
+  <details><summary>Are the gas prices real?</summary><p>Yes. They're AAA state averages, shown with the date retrieved. Individual station prices appear only when shoppers report them.</p></details>
+</section>
+</main>
+<footer class="wrap foot">
+  <p><b>Data notice:</b> CartWise shows only sourced, dated public data: BLS Average Price Data, AAA state gas averages, and chain online menus. Prices at your store will differ. Not affiliated with BLS, AAA, Kroger, Walmart, or any restaurant chain.</p>
+  <p>© 2026 CartWise (placeholder name)</p>
+</footer>
+<script src="data.js"></script>
+<script src="tips.js"></script>
+<script src="app.js"></script>
+<script src="extras.js"></script>
+</body>
+</html>

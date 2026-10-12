@@ -1,0 +1,14 @@
+# Copy to .github/workflows/refresh.yml. Refreshes public data weekly for free on GitHub Actions.
+name: refresh-data
+on: { schedule: [{ cron: "0 14 * * 1" }], workflow_dispatch: {} }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install playwright && playwright install --with-deps chrome
+      - run: python scripts/refresh_bls.py && python scripts/refresh_aaa.py
+      - run: git config user.name bot && git config user.email bot@users.noreply.github.com && git add data && git commit -m "refresh data" || true && git push

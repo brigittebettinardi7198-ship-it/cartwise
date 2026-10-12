@@ -1,0 +1,313 @@
+{
+ "source": "AAA Gas Prices, state averages",
+ "sourceUrl": "https://gasprices.aaa.com/state-gas-price-averages/",
+ "retrieved": "2026-10-12",
+ "states": {
+  "Alaska": {
+   "regular": 5.028,
+   "midgrade": 5.247,
+   "premium": 5.466,
+   "diesel": 6.551
+  },
+  "Alabama": {
+   "regular": 3.973,
+   "midgrade": 4.436,
+   "premium": 4.835,
+   "diesel": 5.923
+  },
+  "Arkansas": {
+   "regular": 3.959,
+   "midgrade": 4.44,
+   "premium": 4.815,
+   "diesel": 5.909
+  },
+  "Arizona": {
+   "regular": 4.7,
+   "midgrade": 5.044,
+   "premium": 5.374,
+   "diesel": 6.2
+  },
+  "California": {
+   "regular": 6.308,
+   "midgrade": 6.518,
+   "premium": 6.721,
+   "diesel": 8.38
+  },
+  "Colorado": {
+   "regular": 4.237,
+   "midgrade": 4.625,
+   "premium": 4.968,
+   "diesel": 6.31
+  },
+  "Connecticut": {
+   "regular": 4.409,
+   "midgrade": 5.024,
+   "premium": 5.446,
+   "diesel": 6.439
+  },
+  "District of Columbia": {
+   "regular": 4.451,
+   "midgrade": 5.104,
+   "premium": 5.469,
+   "diesel": 6.476
+  },
+  "Delaware": {
+   "regular": 4.251,
+   "midgrade": 4.858,
+   "premium": 5.142,
+   "diesel": 6.321
+  },
+  "Florida": {
+   "regular": 4.068,
+   "midgrade": 4.504,
+   "premium": 4.843,
+   "diesel": 5.863
+  },
+  "Georgia": {
+   "regular": 3.805,
+   "midgrade": 4.264,
+   "premium": 4.686,
+   "diesel": 5.726
+  },
+  "Hawaii": {
+   "regular": 5.625,
+   "midgrade": 5.897,
+   "premium": 6.143,
+   "diesel": 7.211
+  },
+  "Iowa": {
+   "regular": 4.237,
+   "midgrade": 4.512,
+   "premium": 5.158,
+   "diesel": 6.028
+  },
+  "Idaho": {
+   "regular": 4.892,
+   "midgrade": 5.195,
+   "premium": 5.457,
+   "diesel": 6.37
+  },
+  "Illinois": {
+   "regular": 4.697,
+   "midgrade": 5.321,
+   "premium": 5.867,
+   "diesel": 6.578
+  },
+  "Indiana": {
+   "regular": 3.907,
+   "midgrade": 4.486,
+   "premium": 5.013,
+   "diesel": 6.638
+  },
+  "Kansas": {
+   "regular": 4.012,
+   "midgrade": 4.358,
+   "premium": 4.748,
+   "diesel": 6.013
+  },
+  "Kentucky": {
+   "regular": 4.024,
+   "midgrade": 4.592,
+   "premium": 5.017,
+   "diesel": 6.115
+  },
+  "Louisiana": {
+   "regular": 3.934,
+   "midgrade": 4.39,
+   "premium": 4.796,
+   "diesel": 5.804
+  },
+  "Massachusetts": {
+   "regular": 4.32,
+   "midgrade": 4.939,
+   "premium": 5.368,
+   "diesel": 6.324
+  },
+  "Maryland": {
+   "regular": 4.263,
+   "midgrade": 4.859,
+   "premium": 5.162,
+   "diesel": 6.368
+  },
+  "Maine": {
+   "regular": 4.384,
+   "midgrade": 4.93,
+   "premium": 5.419,
+   "diesel": 6.454
+  },
+  "Michigan": {
+   "regular": 4.656,
+   "midgrade": 5.296,
+   "premium": 5.883,
+   "diesel": 6.489
+  },
+  "Minnesota": {
+   "regular": 4.247,
+   "midgrade": 4.705,
+   "premium": 5.256,
+   "diesel": 6.125
+  },
+  "Missouri": {
+   "regular": 3.993,
+   "midgrade": 4.353,
+   "premium": 4.718,
+   "diesel": 5.997
+  },
+  "Mississippi": {
+   "regular": 3.925,
+   "midgrade": 4.381,
+   "premium": 4.747,
+   "diesel": 5.87
+  },
+  "Montana": {
+   "regular": 4.503,
+   "midgrade": 4.83,
+   "premium": 5.211,
+   "diesel": 6.126
+  },
+  "North Carolina": {
+   "regular": 3.913,
+   "midgrade": 4.322,
+   "premium": 4.722,
+   "diesel": 5.842
+  },
+  "North Dakota": {
+   "regular": 4.128,
+   "midgrade": 4.575,
+   "premium": 5.12,
+   "diesel": 5.992
+  },
+  "Nebraska": {
+   "regular": 4.187,
+   "midgrade": 4.469,
+   "premium": 5.035,
+   "diesel": 6.036
+  },
+  "New Hampshire": {
+   "regular": 4.306,
+   "midgrade": 4.886,
+   "premium": 5.345,
+   "diesel": 6.348
+  },
+  "New Jersey": {
+   "regular": 4.31,
+   "midgrade": 4.882,
+   "premium": 5.175,
+   "diesel": 6.323
+  },
+  "New Mexico": {
+   "regular": 4.395,
+   "midgrade": 4.817,
+   "premium": 5.142,
+   "diesel": 5.978
+  },
+  "Nevada": {
+   "regular": 5.445,
+   "midgrade": 5.726,
+   "premium": 6.031,
+   "diesel": 6.723
+  },
+  "New York": {
+   "regular": 4.455,
+   "midgrade": 4.986,
+   "premium": 5.386,
+   "diesel": 6.513
+  },
+  "Ohio": {
+   "regular": 3.874,
+   "midgrade": 4.423,
+   "premium": 4.964,
+   "diesel": 6.09
+  },
+  "Oklahoma": {
+   "regular": 4.008,
+   "midgrade": 4.44,
+   "premium": 4.764,
+   "diesel": 5.849
+  },
+  "Oregon": {
+   "regular": 5.0,
+   "midgrade": 5.249,
+   "premium": 5.538,
+   "diesel": 6.747
+  },
+  "Pennsylvania": {
+   "regular": 4.463,
+   "midgrade": 4.919,
+   "premium": 5.3,
+   "diesel": 6.542
+  },
+  "Rhode Island": {
+   "regular": 4.288,
+   "midgrade": 5.023,
+   "premium": 5.429,
+   "diesel": 6.335
+  },
+  "South Carolina": {
+   "regular": 3.988,
+   "midgrade": 4.431,
+   "premium": 4.837,
+   "diesel": 5.77
+  },
+  "South Dakota": {
+   "regular": 4.222,
+   "midgrade": 4.422,
+   "premium": 5.082,
+   "diesel": 6.007
+  },
+  "Tennessee": {
+   "regular": 3.931,
+   "midgrade": 4.368,
+   "premium": 4.777,
+   "diesel": 5.998
+  },
+  "Texas": {
+   "regular": 3.819,
+   "midgrade": 4.304,
+   "premium": 4.682,
+   "diesel": 5.668
+  },
+  "Utah": {
+   "regular": 4.808,
+   "midgrade": 5.089,
+   "premium": 5.336,
+   "diesel": 6.279
+  },
+  "Virginia": {
+   "regular": 4.167,
+   "midgrade": 4.641,
+   "premium": 5.027,
+   "diesel": 6.225
+  },
+  "Vermont": {
+   "regular": 4.421,
+   "midgrade": 4.954,
+   "premium": 5.402,
+   "diesel": 6.384
+  },
+  "Washington": {
+   "regular": 5.449,
+   "midgrade": 5.698,
+   "premium": 5.968,
+   "diesel": 7.276
+  },
+  "Wisconsin": {
+   "regular": 4.134,
+   "midgrade": 4.723,
+   "premium": 5.309,
+   "diesel": 6.187
+  },
+  "West Virginia": {
+   "regular": 4.263,
+   "midgrade": 4.704,
+   "premium": 5.15,
+   "diesel": 6.392
+  },
+  "Wyoming": {
+   "regular": 4.489,
+   "midgrade": 4.758,
+   "premium": 5.074,
+   "diesel": 6.18
+  }
+ }
+}

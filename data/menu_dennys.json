@@ -1,0 +1,507 @@
+{
+ "chain": "Denny's",
+ "location": "2762 4th Avenue South, Seattle, WA (online ordering menu)",
+ "sourceUrl": "https://www.dennys.com/menu",
+ "retrieved": "2026-10-12",
+ "note": "Menu prices vary by location. These are the prices shown for this one store.",
+ "items": [
+  {
+   "name": "Philly Cheesesteak Omelette",
+   "price": 19.59,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "Sirloin Steak & Eggs",
+   "price": 23.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "T-Bone Steak",
+   "price": 26.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Slamburger Combo",
+   "price": 21.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Sirloin Steak",
+   "price": 23.19,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Premium Chicken Tenders Dinner",
+   "price": 18.09,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Country-Fried Steak Dinner",
+   "price": 20.09,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Triple Juicy Burger",
+   "price": 20.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Build Your Own Omelette",
+   "price": 19.69,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "Double Cheeseburger",
+   "price": 19.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Grand Slamwich Combo",
+   "price": 21.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Ultimate Omelette\u00ae",
+   "price": 19.39,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "New! Fried Fish Platter",
+   "price": 18.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Country Fried Steak & Eggs",
+   "price": 19.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Plate Lickin' Chicken Fried Chicken",
+   "price": 18.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Moons Over My Hammy Combo",
+   "price": 20.59,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Grand Slamwich\u00ae",
+   "price": 18.49,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Loaded Veggie Omelette",
+   "price": 17.79,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "Pot Roast Melt",
+   "price": 18.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "French Toast Slam\u00ae",
+   "price": 18.69,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Smokehouse Mac & Cheese Skillet",
+   "price": 20.49,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Crazy Spicy Skillet",
+   "price": 18.19,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Lumberjack Slam\u00ae",
+   "price": 19.59,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Berry Vanilla Crepe Breakfast",
+   "price": 16.99,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "Jr. Grand Slam\u00ae",
+   "price": 6.49,
+   "from": false,
+   "category": "kids"
+  },
+  {
+   "name": "Grand Slam\u00ae Burrito",
+   "price": 8.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Everyday Value Slam\u00ae",
+   "price": 7.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "New! Mushroom Swiss Melt Combo",
+   "price": 13.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Double Cheeseburger Combo",
+   "price": 22.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Cali Club Combo",
+   "price": 21.79,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Berry Waffle Slam\u00ae",
+   "price": 18.29,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Waffle Slam\u00ae",
+   "price": 16.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Berry Stuffed French Toast Slam\u00ae",
+   "price": 19.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Original Grand Slam\u00ae",
+   "price": 16.69,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Stack of Pumpkin Pecan Pancakes",
+   "price": 11.89,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Stack of Cinnamon Roll Pancakes",
+   "price": 10.49,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Stack of Hearty 9-Grain Pancakes",
+   "price": 5.19,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "New! Bacon, Egg and Cheese Sliders with Drink",
+   "price": 6.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Berry Stuffed French Toast\u00ae",
+   "price": 15.19,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Buttermilk Biscuits",
+   "price": 4.19,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "English Muffin",
+   "price": 4.19,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Seasoned Red-Skinned Potatoes",
+   "price": 4.99,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "New! Mozzillas",
+   "price": 12.19,
+   "from": false,
+   "category": "appetizer"
+  },
+  {
+   "name": "New! Bone-In Wings",
+   "price": 13.19,
+   "from": true,
+   "category": "appetizer"
+  },
+  {
+   "name": "Boneless Wings",
+   "price": 13.19,
+   "from": true,
+   "category": "appetizer"
+  },
+  {
+   "name": "Premium Chicken Tenders",
+   "price": 12.39,
+   "from": false,
+   "category": "appetizer"
+  },
+  {
+   "name": "Cobb Salad",
+   "price": 11.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "New! Cheesy Bacon Ranch Sliders",
+   "price": 16.99,
+   "from": false,
+   "category": "appetizer"
+  },
+  {
+   "name": "Slamburger\u2122",
+   "price": 18.69,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "BBQ Bacon Chicken Sandwich",
+   "price": 18.69,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Cali Club Sandwich",
+   "price": 17.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Seasoned Fries",
+   "price": 6.89,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Garden Side Salad",
+   "price": 6.29,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Broccoli",
+   "price": 4.49,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Red Rustic Mashed Potatoes\u2122",
+   "price": 4.79,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Whole Grain Rice",
+   "price": 4.79,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Sweet Corn",
+   "price": 4.79,
+   "from": false,
+   "category": "side"
+  },
+  {
+   "name": "Soup of the day",
+   "price": 4.89,
+   "from": true,
+   "category": "side"
+  },
+  {
+   "name": "New! Mushroom & Onion Medley Sirloin Steak",
+   "price": 24.19,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Bourbon Chicken Skillet",
+   "price": 19.59,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Spaghetti & Meatballs",
+   "price": 16.39,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "Jr. Waffle Slam\u00ae",
+   "price": 6.99,
+   "from": false,
+   "category": "kids"
+  },
+  {
+   "name": "Jr. Chocolate Chip Pancakes",
+   "price": 6.19,
+   "from": false,
+   "category": "kids"
+  },
+  {
+   "name": "Jr. Cheeseburger",
+   "price": 6.49,
+   "from": false,
+   "category": "kids"
+  },
+  {
+   "name": "Jr. Premium Chicken Tenders",
+   "price": 6.99,
+   "from": false,
+   "category": "kids"
+  },
+  {
+   "name": "55+ Scrambled Eggs & Cheddar Breakfast",
+   "price": 11.49,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "55+ Omelette",
+   "price": 9.99,
+   "from": false,
+   "category": "entree"
+  },
+  {
+   "name": "55+ Starter\u2122",
+   "price": 9.99,
+   "from": true,
+   "category": "entree"
+  },
+  {
+   "name": "Cookie Dough Lover's Pie",
+   "price": 5.99,
+   "from": false,
+   "category": "dessert"
+  },
+  {
+   "name": "Oven-Baked Caramel Apple Pie Crisp",
+   "price": 6.99,
+   "from": false,
+   "category": "dessert"
+  },
+  {
+   "name": "New York Style Cheesecake",
+   "price": 5.99,
+   "from": false,
+   "category": "dessert"
+  },
+  {
+   "name": "Brownie Sundae with Oreo\u00ae Pieces",
+   "price": 5.99,
+   "from": false,
+   "category": "dessert"
+  },
+  {
+   "name": "Soft Drinks",
+   "price": 4.49,
+   "from": true,
+   "category": "drink"
+  },
+  {
+   "name": "Orange Cream Cloud Frappe",
+   "price": 6.39,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Barq\u2019s Root Beer Cloud Frappe",
+   "price": 6.39,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Vanilla Frappuccino",
+   "price": 6.39,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Mocha Cloud Frappe",
+   "price": 6.39,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Signature Diner Blend Coffee",
+   "price": 3.99,
+   "from": true,
+   "category": "drink"
+  },
+  {
+   "name": "New! Salted Caramel Cold Brew",
+   "price": 6.99,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "New! Sweet & Creamy Cold Brew",
+   "price": 6.99,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Minute Maid\u00ae Juice",
+   "price": 4.99,
+   "from": true,
+   "category": "drink"
+  },
+  {
+   "name": "New! Caramel Apple Lemonade",
+   "price": 5.49,
+   "from": false,
+   "category": "drink"
+  },
+  {
+   "name": "Minute Maid\u00ae Lemonade",
+   "price": 4.99,
+   "from": true,
+   "category": "drink"
+  }
+ ]
+}

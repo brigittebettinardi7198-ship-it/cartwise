@@ -1,0 +1,147 @@
+{
+ "source": "U.S. Bureau of Labor Statistics, Average Price Data (U.S. city average)",
+ "sourceUrl": "https://www.bls.gov/cpi/factsheets/average-prices.htm",
+ "retrieved": "2026-10-12",
+ "items": [
+  {
+   "key": "eggs",
+   "label": "Eggs, grade A, large",
+   "unit": "dozen",
+   "price": 2.27,
+   "period": "August 2026",
+   "yoyPct": -36.7,
+   "series": "APU0000708111",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000708111"
+  },
+  {
+   "key": "milk",
+   "label": "Milk, fresh, whole, fortified",
+   "unit": "gallon",
+   "price": 4.23,
+   "period": "August 2026",
+   "yoyPct": 1.4,
+   "series": "APU0000709112",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000709112"
+  },
+  {
+   "key": "ground beef",
+   "label": "Ground beef, 100% beef",
+   "unit": "lb",
+   "price": 6.92,
+   "period": "August 2026",
+   "yoyPct": 9.6,
+   "series": "APU0000703112",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000703112"
+  },
+  {
+   "key": "chicken breast",
+   "label": "Chicken breast, boneless",
+   "unit": "lb",
+   "price": 4.17,
+   "period": "August 2026",
+   "yoyPct": -0.9,
+   "series": "APU0000FF1101",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000FF1101"
+  },
+  {
+   "key": "bread",
+   "label": "Bread, white, pan",
+   "unit": "lb",
+   "price": 1.82,
+   "period": "August 2026",
+   "yoyPct": -1.0,
+   "series": "APU0000702111",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000702111"
+  },
+  {
+   "key": "rice",
+   "label": "Rice, white, long grain, uncooked",
+   "unit": "lb",
+   "price": 1.11,
+   "period": "August 2026",
+   "yoyPct": 4.9,
+   "series": "APU0000701312",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000701312"
+  },
+  {
+   "key": "pasta",
+   "label": "Spaghetti and macaroni",
+   "unit": "lb",
+   "price": 1.37,
+   "period": "August 2026",
+   "yoyPct": 6.2,
+   "series": "APU0000701322",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000701322"
+  },
+  {
+   "key": "bananas",
+   "label": "Bananas",
+   "unit": "lb",
+   "price": 0.65,
+   "period": "August 2026",
+   "yoyPct": -2.1,
+   "series": "APU0000711211",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000711211"
+  },
+  {
+   "key": "tomatoes",
+   "label": "Tomatoes, field grown",
+   "unit": "lb",
+   "price": 1.98,
+   "period": "August 2026",
+   "yoyPct": 2.7,
+   "series": "APU0000712311",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000712311"
+  },
+  {
+   "key": "cheese",
+   "label": "Cheddar cheese, natural",
+   "unit": "lb",
+   "price": 5.98,
+   "period": "August 2026",
+   "yoyPct": -2.3,
+   "series": "APU0000710212",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000710212"
+  },
+  {
+   "key": "butter",
+   "label": "Butter, salted, grade AA, stick",
+   "unit": "lb",
+   "price": 4.02,
+   "period": "August 2026",
+   "yoyPct": -16.7,
+   "series": "APU0000FS1101",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000FS1101"
+  },
+  {
+   "key": "coffee",
+   "label": "Coffee, 100%, ground roast",
+   "unit": "lb",
+   "price": 9.3,
+   "period": "August 2026",
+   "yoyPct": 4.8,
+   "series": "APU0000717311",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000717311"
+  },
+  {
+   "key": "cookies",
+   "label": "Cookies, chocolate chip",
+   "unit": "lb",
+   "price": 5.21,
+   "period": "August 2026",
+   "yoyPct": 1.8,
+   "series": "APU0000702421",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000702421"
+  },
+  {
+   "key": "ice cream",
+   "label": "Ice cream, prepackaged, bulk, regular",
+   "unit": "1/2 gallon",
+   "price": 5.85,
+   "period": "August 2026",
+   "yoyPct": -10.0,
+   "series": "APU0000710411",
+   "sourceUrl": "https://data.bls.gov/timeseries/APU0000710411"
+  }
+ ]
+}
