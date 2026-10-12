@@ -37,3 +37,4 @@ td.low{color:var(--brand);font-weight:700}.tbl{overflow-x:auto}
 .src{font-size:.8rem;color:var(--muted)}.src a,td a{color:var(--brand)}td.up{color:#b42318;font-weight:600}.hp{position:absolute;left:-9999px}
 .note{background:var(--brand2);border-left:4px solid var(--brand);padding:10px 14px;border-radius:8px;font-weight:600}
 .itemcard{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}.chip{grid-column:auto;background:#fff;color:var(--brand);border:1px solid var(--brand);border-radius:999px;padding:5px 11px;font-size:.85rem;font-weight:600}.chip:hover{background:var(--brand2)}
