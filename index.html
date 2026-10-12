@@ -9,7 +9,7 @@
 <meta property="og:title" content="CartWise: Compare Grocery Prices by ZIP">
 <meta property="og:description" content="Real, sourced organic grocery, gas and restaurant prices. Free, no account.">
 <meta property="og:type" content="website">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"WebApplication","@id":"https://brigittebettinardi7198-ship-it.github.io/cartwise/#app","name":"CartWise","url":"https://brigittebettinardi7198-ship-it.github.io/cartwise/","applicationCategory":"FinanceApplication","applicationSubCategory":"Grocery price comparison","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free web tool that gives benchmark prices for organic groceries (USDA AMS national average advertised prices for organic produce), AAA state average gas prices by ZIP code, and restaurant meal estimates with tax and tip based on real chain menu prices. Each number shows its source and date.","featureList":["Organic shopping list benchmarked against USDA national average advertised organic prices","AAA state average gas prices by ZIP code","Restaurant cost estimator with tax and tip using real menu prices","Organic shopping tips (Dirty Dozen, Clean Fifteen, frozen and store-brand organic)","Unit-price, markdown timing, store-brand, shrinkflation and coupon-stacking tips","Optional dated shopper price reports"],"audience":{"@type":"Audience","geographicArea":{"@type":"Country","name":"United States"}},"publisher":{"@type":"Organization","name":"CartWise"}},
@@ -39,33 +39,27 @@
 </section>
 
 <div class="wrap tabs" role="tablist">
-  <button role="tab" data-t="organic" aria-selected="true">🌱 Organic groceries</button>
+  <button role="tab" data-t="organic" aria-selected="true">🌱 Organic</button>
   <button role="tab" data-t="restaurants" aria-selected="false">🍽️ Restaurants</button>
   <button role="tab" data-t="gas" aria-selected="false">⛽ Gas</button>
 </div>
 <div id="organic" class="panel">
 <section class="wrap card">
   <h2 class="ph">Organic groceries: real benchmark prices for your list</h2>
-  <p class="muted">National average advertised prices for organic produce at major US grocery chains, from USDA's weekly retail report. Enter your list to see a benchmark for each item.</p>
-  <form id="fo">
-    <label>ZIP code<input id="zipo" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label>
-    <label class="grow">Organic list <small>(one item per line)</small>
-      <textarea id="listo" rows="6" required>apples
-bananas
-frozen berries
-spinach
-carrots
-avocados
-potatoes
-kale</textarea></label>
-    <button type="submit">Compare organic</button>
-  </form>
+  <p class="muted">USDA national average organic prices from major US grocery chains. Add items to see a benchmark for each one instantly.</p>
+  <div class="adder">
+    <input id="osearch" list="olist" autocomplete="off" placeholder="Add an organic item, e.g. berries, kale, apples" aria-label="Add an organic item">
+    <button id="oadd" type="button">Add</button>
+    <datalist id="olist"></datalist>
+  </div>
+  <div id="mylist" class="chips" aria-label="Your list"></div>
+  <div class="popular"><span class="muted">Popular:</span> <span id="popular" class="chips inline"></span></div>
   <div id="outo" aria-live="polite"></div>
 </section>
 <section class="wrap"><h2>Organic tips</h2><div id="orgtips" class="grid"></div></section>
 <section id="tips" class="wrap">
   <h2>Tips for your list</h2>
-  <p class="muted" id="tipsnote">Run a comparison to get tips for your items. Here are tips that apply to nearly every trip:</p>
+  <p class="muted" id="tipsnote">Tips matched to the items on your list:</p>
   <div id="tipgrid" class="grid"></div>
 </section>
 </div>
@@ -89,8 +83,8 @@ kale</textarea></label>
 <div id="gas" class="panel" hidden>
 <section class="wrap card">
   <h2 class="ph">Gas prices: your state's average today</h2>
-  <p class="muted">Enter a ZIP code to see the AAA average for your state (regular, mid-grade, premium, diesel).</p>
-  <form id="gf" class="gform"><label>ZIP code<input id="zipg" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label><button type="submit">Check gas</button></form>
+  <p class="muted">Type a 5-digit ZIP code to see your state's AAA average right away.</p>
+  <form id="gf" class="gform"><label>ZIP code<input id="zipg" inputmode="numeric" maxlength="5" placeholder="e.g. 60614" required></label></form>
   <div id="gout" aria-live="polite"></div>
   <div class="grid" style="margin-top:16px">
     <article class="tip"><span class="tag">Warehouse clubs</span><h3>Club gas is often the cheapest in town</h3><p>Costco, Sam's Club, and BJ's often sell gas well below nearby stations, but you need a membership. Check whether the fuel savings alone cover the annual fee: a 15-gallon weekly fill at 20¢ less per gallon saves about $156 a year.</p></article>
@@ -142,9 +136,9 @@ kale</textarea></label>
   <p><b>Data notice:</b> CartWise shows only sourced, dated public data: USDA AMS organic retail report, AAA state gas averages, and chain online menus. Prices at your store will differ. Not affiliated with USDA, AAA, Kroger, Walmart, or any restaurant chain.</p>
   <p>© 2026 CartWise (placeholder name)</p>
 </footer>
-<script src="data.js?v=3"></script>
-<script src="tips.js?v=3"></script>
-<script src="app.js?v=3"></script>
-<script src="extras.js?v=3"></script>
+<script src="data.js?v=4"></script>
+<script src="tips.js?v=4"></script>
+<script src="app.js?v=4"></script>
+<script src="extras.js?v=4"></script>
 </body>
 </html>

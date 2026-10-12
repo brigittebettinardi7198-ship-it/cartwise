@@ -38,3 +38,26 @@ td.low{color:var(--brand);font-weight:700}.tbl{overflow-x:auto}
 .note{background:var(--brand2);border-left:4px solid var(--brand);padding:10px 14px;border-radius:8px;font-weight:600}
 .itemcard{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}.chip{grid-column:auto;background:#fff;color:var(--brand);border:1px solid var(--brand);border-radius:999px;padding:5px 11px;font-size:.85rem;font-weight:600}.chip:hover{background:var(--brand2)}
+/* UX pass v4 */
+.hero{padding:28px 20px 12px}h1{font-size:clamp(1.7rem,4.5vw,2.6rem)}.lede{font-size:1.02rem;margin:.4em 0 0}
+h2{font-size:1.25rem;margin:32px 0 8px}.card{padding:18px}.ph{font-size:1.2rem}
+.tabs{position:sticky;top:60px;z-index:4;background:var(--bg);padding:8px 20px;margin:6px auto 10px}
+.adder{display:flex;gap:8px;margin:10px 0 8px}.adder input{flex:1;font-size:1rem;padding:13px 14px}.adder button{grid-column:auto;padding:0 18px}
+.chips.inline{display:inline-flex;margin:0}.popular{margin:6px 0 4px;font-size:.88rem}.popular .chips{gap:6px}
+.chip{display:inline-flex;align-items:center;gap:4px;min-height:34px}.chip.on{background:var(--brand);color:#fff}.chip.on span{opacity:.8;font-size:1.05rem}
+#mylist{margin:4px 0 10px;min-height:34px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:10px 0}
+.pc{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff}
+.pc header{display:flex;justify-content:space-between;align-items:center;gap:6px;text-transform:capitalize}
+.pc .big{font-size:1.7rem;font-weight:800;color:var(--brand);line-height:1.1;margin-top:4px}.pc .sz{color:var(--muted);font-size:.85rem}
+.pc ul{list-style:none;padding:8px 0 0;margin:8px 0 0;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted)}.pc li{display:flex;justify-content:space-between;gap:8px;padding:2px 0}.pc li b{color:var(--ink)}
+.pill{background:#e8f1fb;color:#1d5fa8;border-radius:999px;padding:2px 8px;font-size:.7rem;font-weight:700;text-transform:none;white-space:nowrap}
+.note{margin:8px 0;font-size:.92rem}.miss{margin-top:14px}.gform{grid-template-columns:200px}
+@media(max-width:640px){
+  body{padding-bottom:72px}.nav nav a{font-size:.9rem}
+  .tabs{position:fixed;top:auto;bottom:0;left:0;right:0;margin:0;padding:6px 6px calc(6px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr);gap:4px;box-shadow:0 -4px 16px rgba(0,0,0,.06);z-index:50}
+  .tabs button{border:0;border-radius:10px;padding:10px 4px;font-size:.8rem;min-height:48px}
+  .rform{grid-template-columns:1fr}.rform .row{flex-wrap:wrap}input,select,textarea{min-width:0;max-width:100%}.checks{flex-wrap:wrap}.totals{grid-template-columns:1fr 1fr}
+  .cards{grid-template-columns:1fr 1fr}.pc .big{font-size:1.4rem}.gform{grid-template-columns:1fr}.hero{padding-top:18px}
+}
+@media(max-width:640px){.lede{display:none}.eyebrow{font-size:.7rem}.card>.muted:first-of-type{font-size:.9rem}}

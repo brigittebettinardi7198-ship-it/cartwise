@@ -2,7 +2,6 @@ const $ = s => document.querySelector(s);
 const money = n => "$" + Number(n).toFixed(2);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const srcLine = (name, url, date) => `<p class="src">Source: <a href="${url}" target="_blank" rel="noopener">${esc(name)}</a> · retrieved ${esc(date)}</p>`;
-renderTips([]);
 
 const NOTE = "Use this as a benchmark. If your store charges much more than this, look at store brands, Aldi, or Walmart.";
 const STOP = new Set(["organic","fresh","frozen","bag","bags","of","and","the","a","lb","box","pack","bunch","raw","whole","baby"]);
@@ -23,35 +22,37 @@ function matchRows(it, org) {
     return qw.length && qw.every(w => hw.some(h => h === w || (w.length >= 4 && (h.startsWith(w) || w.startsWith(h) || h.endsWith(w)))));
   });
 }
-async function compare(zip, items, mode, out) {
-  const [org, kroger, reports] = await Promise.all([DATA.org, krogerPrices(zip, items.map(i => "organic " + i)), shopperReports("grocery", zip)]);
-  let html = "";
-  if (!org) { $(out).innerHTML = `<div class="empty">Organic price data didn't load. Please refresh the page.</div>`; return; }
+/* Organic list: instant, chip-based, saved in localStorage. */
+const LS = "cw_list", POPULAR = ["apples","bananas","berries","spinach","avocados","carrots","kale","potatoes","grapes","tomatoes","salad","onions"];
+let LIST = JSON.parse(localStorage.getItem(LS) || "null") || ["apples","bananas","frozen berries","spinach","avocados","carrots"];
+const save = () => localStorage.setItem(LS, JSON.stringify(LIST));
+function addItem(v) { v = v.trim().toLowerCase(); if (v && !LIST.includes(v)) { LIST.push(v); save(); } $("#osearch").value = ""; renderOrganic(); }
+function removeItem(v) { LIST = LIST.filter(x => x !== v); save(); renderOrganic(); }
+const chip = (t, attr, x) => `<button type="button" class="chip${x ? " on" : ""}" ${attr}="${esc(t)}">${esc(t)}${x ? ' <span aria-hidden="true">×</span>' : ""}</button>`;
+async function renderOrganic() {
+  const org = await DATA.org, out = $("#outo");
+  $("#mylist").innerHTML = LIST.length ? LIST.map(i => chip(i, "data-rm", 1)).join("") : `<span class="muted">Your list is empty. Add an item above.</span>`;
+  $("#popular").innerHTML = POPULAR.filter(p => !LIST.includes(p)).slice(0, 8).map(p => chip(p, "data-add")).join("");
+  renderOrgTips(LIST); renderTips(LIST);
+  if (!org) { out.innerHTML = `<div class="empty">Organic price data didn't load. Please refresh the page.</div>`; return; }
+  if (!LIST.length) { out.innerHTML = ""; return; }
   const found = [], miss = [];
-  items.forEach(it => { const rows = matchRows(it, org); rows.length ? found.push([it, rows.sort((x, y) => y.ads - x.ads)]) : miss.push(it); });
-  html += `<h3>Organic benchmark prices <small class="muted">(USDA, week of ${esc(org.reportDate)})</small></h3>
-  <p class="note">${NOTE}</p>`;
-  html += found.length ? found.map(([it, rows]) => `<div class="itemcard"><b>Organic ${esc(it)}</b>
-    <div class="tbl"><table><thead><tr><th>Variety</th><th>Size</th><th>Avg advertised price</th><th>Ads</th></tr></thead><tbody>
-    ${rows.slice(0, 8).map(r => `<tr><td>${esc(r.variety || r.commodity)}</td><td>${esc(r.unit)}</td><td class="low">${money(r.price)}</td><td><small class="muted">${r.ads.toLocaleString()}</small></td></tr>`).join("")}</tbody></table></div></div>`).join("")
-    : `<div class="empty">None of these items are in this week's USDA organic report.</div>`;
-  if (miss.length) { const avail = [...new Set(org.items.map(r => r.commodity.split(/[,(]/)[0].trim().toLowerCase()))].sort();
-    html += `<p class="muted">No USDA organic benchmark this week for: <b>${miss.map(esc).join(", ")}</b>. Items with prices this week (tap to add):</p><div class="chips">${avail.map(c => `<button type="button" class="chip" data-add="${esc(c)}">${esc(c)}</button>`).join("")}</div>`; }
-  html += `<p class="src">${esc(org.note)} Ad period ${esc(org.adPeriod)}.</p>` + srcLine(org.source, org.sourceUrl, org.retrieved);
-  const rowsLive = [...kroger, ...reports.filter(r => /organic/i.test(r.item))];
-  if (rowsLive.length) html += `<h3>Store prices near ${zip}</h3><div class="tbl"><table><tbody>${rowsLive.map(r => `<tr><td>${esc(r.item)}</td><td>${esc(r.store)}</td><td>${money(r.price)}</td><td><small class="muted">${esc(r.source)} · ${esc((r.asOf || "").slice(0, 10))}</small></td></tr>`).join("")}</tbody></table></div>`;
-  $(out).innerHTML = html;
-  $(out).querySelectorAll("[data-add]").forEach(b => b.onclick = () => { const ta = $("#listo"); ta.value = ta.value.split("\n").filter(l => !miss.includes(l.trim().toLowerCase())).concat(b.dataset.add).join("\n"); $("#fo").requestSubmit(); });
+  LIST.forEach(it => { const rows = matchRows(it, org); rows.length ? found.push([it, rows.sort((x, y) => y.ads - x.ads)]) : miss.push(it); });
+  const avail = [...new Set(org.items.map(r => r.commodity.split(/[,(]/)[0].trim().toLowerCase()))].sort();
+  out.innerHTML = `<p class="note">${NOTE}</p>
+  <div class="cards">${found.map(([it, rows]) => { const top = rows[0], frozen = /frozen/i.test(it);
+    return `<article class="pc"><header><b>${esc(it)}</b>${frozen ? '<span class="pill">fresh price</span>' : ""}</header>
+      <div class="big">${money(top.price)}</div><div class="sz">${esc(top.unit)} · ${esc(top.variety || top.commodity)}</div>
+      ${rows.length > 1 ? `<ul>${rows.slice(1, 4).map(r => `<li><span>${esc(r.variety || r.commodity)}, ${esc(r.unit)}</span><b>${money(r.price)}</b></li>`).join("")}</ul>` : ""}</article>`; }).join("")}</div>
+  ${miss.length ? `<p class="muted miss">No USDA organic benchmark this week for: <b>${miss.map(esc).join(", ")}</b>. Try one of these:</p><div class="chips">${avail.filter(c => !LIST.includes(c)).map(c => chip(c, "data-add")).join("")}</div>` : ""}
+  <p class="src">USDA AMS national weighted-average advertised organic prices, week of ${esc(org.reportDate)} (ads ${esc(org.adPeriod)}). Shelf prices may be higher. <a href="${org.sourceUrl}" target="_blank" rel="noopener">Source</a> · retrieved ${esc(org.retrieved)}</p>`;
 }
-function bindCompare(form, zipSel, listSel, outSel, mode) {
-  $(form).addEventListener("submit", e => {
-    e.preventDefault(); const zip = $(zipSel).value.trim(); if (!/^\d{5}$/.test(zip)) { $(zipSel).focus(); return; }
-    const items = [...new Set($(listSel).value.toLowerCase().split(/\n|,/).map(s => s.trim()).filter(Boolean))];
-    compare(zip, items, mode, outSel);
-    renderOrgTips(items); $("#tipsnote").textContent = "Tips matched to the items on your list:"; renderTips(items);
-  });
-}
-bindCompare("#fo", "#zipo", "#listo", "#outo", "organic");
+DATA.org.then(org => { if (org) $("#olist").innerHTML = [...new Set(org.items.map(r => r.commodity.split(/[,(]/)[0].trim().toLowerCase()).concat(["berries","greens","frozen berries","sweet potatoes"]))].sort().map(c => `<option value="${esc(c)}">`).join(""); });
+document.addEventListener("click", e => { const a = e.target.closest("[data-add]"), r = e.target.closest("[data-rm]"); if (a) addItem(a.dataset.add); if (r) removeItem(r.dataset.rm); });
+$("#oadd").onclick = () => addItem($("#osearch").value);
+$("#osearch").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); addItem(e.target.value); } });
+$("#osearch").addEventListener("input", e => { if (e.inputType === "insertReplacementText" || e.inputType == null) addItem(e.target.value); }); // datalist pick
+renderOrganic();
 document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
   document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
   document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== b.dataset.t); history.replaceState(null, "", "#" + b.dataset.t);
