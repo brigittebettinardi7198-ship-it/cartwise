@@ -1,0 +1,786 @@
+{
+ "source": "USDA AMS Market News, Weekly Grocery Store Specialty Crops Feature Activity (FVWRETAIL), National Organic Summary",
+ "sourceUrl": "https://www.ams.usda.gov/mnreports/fvwretail.pdf",
+ "reportDate": "Oct 9, 2026",
+ "adPeriod": "10/3/2026 to 10/15/2026",
+ "retrieved": "2026-10-12",
+ "note": "Weighted average ADVERTISED (sale/circular) prices for organic produce at major US grocery chains, excluding AK and HI. Shelf prices may be higher.",
+ "items": [
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Ambrosia",
+   "unit": "2 lb bag",
+   "ads": 183,
+   "price": 3.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Cosmic Crisp",
+   "unit": "per lb",
+   "ads": 481,
+   "price": 2.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Envy",
+   "unit": "2 lb bag",
+   "ads": 183,
+   "price": 3.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Fuji",
+   "unit": "2 lb bag",
+   "ads": 190,
+   "price": 5.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Fuji",
+   "unit": "per lb",
+   "ads": 21,
+   "price": 1.78
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Gala/Royal Gala",
+   "unit": "2 lb bag",
+   "ads": 232,
+   "price": 5.59
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Gala/Royal Gala",
+   "unit": "3 lb bag",
+   "ads": 187,
+   "price": 4.48
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Gala/Royal Gala",
+   "unit": "per lb",
+   "ads": 45,
+   "price": 2.26
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Granny Smith",
+   "unit": "2 lb bag",
+   "ads": 236,
+   "price": 5.6
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Granny Smith",
+   "unit": "per lb",
+   "ads": 25,
+   "price": 2.49
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Honeycrisp",
+   "unit": "2 lb bag",
+   "ads": 23,
+   "price": 4.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples",
+   "variety": "Honeycrisp",
+   "unit": "per lb",
+   "ads": 61,
+   "price": 2.69
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Apples, Processed",
+   "variety": "Juice",
+   "unit": "64 oz (1/2 gallon)",
+   "ads": 155,
+   "price": 5.97
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Avocados",
+   "variety": "Hass",
+   "unit": "4 count mesh",
+   "ads": 537,
+   "price": 5.44
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Avocados",
+   "variety": "Hass",
+   "unit": "each",
+   "ads": 454,
+   "price": 1.84
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Avocados",
+   "variety": "Hass-Marked Extra Large",
+   "unit": "each",
+   "ads": 4,
+   "price": 2.5
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Avocados",
+   "variety": "Hass-Marked Large",
+   "unit": "each",
+   "ads": 529,
+   "price": 2.19
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Bananas",
+   "variety": "",
+   "unit": "per lb",
+   "ads": 304,
+   "price": 0.83
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Blackberries",
+   "variety": "",
+   "unit": "5.6-6 oz package",
+   "ads": 1096,
+   "price": 4.53
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Blueberries",
+   "variety": "",
+   "unit": "1 pint (11-12 oz",
+   "ads": 115,
+   "price": 4.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Blueberries",
+   "variety": "",
+   "unit": "6 oz package",
+   "ads": 34,
+   "price": 3.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Blueberries",
+   "variety": "",
+   "unit": "9.8 oz package",
+   "ads": 413,
+   "price": 3.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Grapes",
+   "variety": "Black Seedless",
+   "unit": "per lb",
+   "ads": 481,
+   "price": 3.32
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Grapes",
+   "variety": "Red Seedless",
+   "unit": "per lb",
+   "ads": 2078,
+   "price": 3.47
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Grapes",
+   "variety": "White Seedless Type",
+   "unit": "2 lb container with",
+   "ads": 644,
+   "price": 6.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Grapes",
+   "variety": "White Seedless Type",
+   "unit": "per lb",
+   "ads": 2098,
+   "price": 3.47
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Kiwifruit",
+   "variety": "Hayward",
+   "unit": "1-lb containers",
+   "ads": 481,
+   "price": 5.54
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Kiwifruit",
+   "variety": "Yellow Flesh",
+   "unit": "1-lb containers",
+   "ads": 322,
+   "price": 5.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Lemons",
+   "variety": "",
+   "unit": "1 lb bag",
+   "ads": 72,
+   "price": 3.99
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Oranges",
+   "variety": "Navel",
+   "unit": "3 lb bag",
+   "ads": 212,
+   "price": 7.78
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Pears",
+   "variety": "Bartlett",
+   "unit": "2 lb bag",
+   "ads": 791,
+   "price": 3.4
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Pears",
+   "variety": "Bartlett",
+   "unit": "per lb",
+   "ads": 562,
+   "price": 2.66
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Pears",
+   "variety": "Bosc",
+   "unit": "per lb",
+   "ads": 481,
+   "price": 2.77
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Pears",
+   "variety": "Red Type",
+   "unit": "per lb",
+   "ads": 406,
+   "price": 2.77
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Raspberries",
+   "variety": "",
+   "unit": "6 oz package",
+   "ads": 654,
+   "price": 4.97
+  },
+  {
+   "group": "Fruit",
+   "commodity": "Strawberries",
+   "variety": "",
+   "unit": "1 lb package",
+   "ads": 921,
+   "price": 5.72
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Onions, Dry",
+   "variety": "Yellow",
+   "unit": "2 lb bag",
+   "ads": 22,
+   "price": 2.5
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Onions, Dry",
+   "variety": "Yellow",
+   "unit": "3 lb bag",
+   "ads": 343,
+   "price": 4.54
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Onions, Dry",
+   "variety": "Yellow",
+   "unit": "per lb",
+   "ads": 154,
+   "price": 1.49
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Onions, Dry",
+   "variety": "Yellow Marked Sweet",
+   "unit": "per lb",
+   "ads": 162,
+   "price": 2.48
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Fingerling",
+   "unit": "24 oz bag",
+   "ads": 305,
+   "price": 4.99
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Mixed Colors",
+   "unit": "24 oz bag",
+   "ads": 211,
+   "price": 4.89
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Round Red",
+   "unit": "20 lb bag",
+   "ads": 22,
+   "price": 2.99
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Round Red",
+   "unit": "24 oz bag",
+   "ads": 317,
+   "price": 4.86
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Round Red",
+   "unit": "3 lb bag",
+   "ads": 25,
+   "price": 3.97
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Round White",
+   "unit": "20 lb bag",
+   "ads": 22,
+   "price": 2.99
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Russet",
+   "unit": "3 lb bag",
+   "ads": 97,
+   "price": 4.36
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Russet",
+   "unit": "per lb",
+   "ads": 154,
+   "price": 1.49
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Yellow Type",
+   "unit": "20 lb bag",
+   "ads": 22,
+   "price": 2.99
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Yellow Type",
+   "unit": "24 oz bag",
+   "ads": 317,
+   "price": 4.86
+  },
+  {
+   "group": "Potatoes & Onions",
+   "commodity": "Potatoes",
+   "variety": "Yellow Type",
+   "unit": "3 lb bag",
+   "ads": 97,
+   "price": 4.36
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Beets",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 130,
+   "price": 2.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Broccoli",
+   "variety": "Crown Cut",
+   "unit": "per lb",
+   "ads": 25,
+   "price": 4.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Brussels Sprouts",
+   "variety": "",
+   "unit": "1 lb bag",
+   "ads": 245,
+   "price": 4.49
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Brussels Sprouts",
+   "variety": "",
+   "unit": "2 lb bag",
+   "ads": 61,
+   "price": 7.0
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Cabbage",
+   "variety": "Round Green Type",
+   "unit": "per lb",
+   "ads": 190,
+   "price": 1.29
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "",
+   "unit": "1 lb bag",
+   "ads": 88,
+   "price": 2.18
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "",
+   "unit": "2 lb bag",
+   "ads": 373,
+   "price": 3.0
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 110,
+   "price": 2.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "",
+   "unit": "per lb",
+   "ads": 154,
+   "price": 1.29
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "Baby Peeled",
+   "unit": "1 lb bag",
+   "ads": 1521,
+   "price": 2.02
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Carrots",
+   "variety": "Baby Peeled Type Mixed Color",
+   "unit": "12 oz bag",
+   "ads": 61,
+   "price": 2.0
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Cauliflower",
+   "variety": "",
+   "unit": "each",
+   "ads": 35,
+   "price": 2.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Celery",
+   "variety": "Hearts",
+   "unit": "per package",
+   "ads": 435,
+   "price": 3.33
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Collards",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 110,
+   "price": 2.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Cucumbers",
+   "variety": "",
+   "unit": "each",
+   "ads": 89,
+   "price": 1.44
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Cucumbers",
+   "variety": "LONG SEEDLESS - Greenhouse",
+   "unit": "each",
+   "ads": 509,
+   "price": 1.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Cucumbers",
+   "variety": "PERSIAN - Greenhouse",
+   "unit": "16 oz bag",
+   "ads": 481,
+   "price": 4.21
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Curly Parsley",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 176,
+   "price": 1.43
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Kale",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 481,
+   "price": 2.22
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Kale",
+   "variety": "",
+   "unit": "per lb",
+   "ads": 190,
+   "price": 3.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Lettuce",
+   "variety": "Boston - Greenhouse",
+   "unit": "4 oz containers",
+   "ads": 96,
+   "price": 3.5
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Lettuce",
+   "variety": "Iceberg",
+   "unit": "each",
+   "ads": 183,
+   "price": 3.49
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Lettuce",
+   "variety": "Romaine (Hearts)",
+   "unit": "3 count",
+   "ads": 146,
+   "price": 4.3
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Mushrooms",
+   "variety": "Cremini",
+   "unit": "8 oz package",
+   "ads": 190,
+   "price": 3.5
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Mushrooms",
+   "variety": "White",
+   "unit": "8 oz package",
+   "ads": 293,
+   "price": 3.71
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Peppers (Bell Type)",
+   "variety": "Green",
+   "unit": "each",
+   "ads": 23,
+   "price": 1.25
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Plain Parsley",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 22,
+   "price": 0.99
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Pumpkins",
+   "variety": "Pie Type",
+   "unit": "per lb",
+   "ads": 262,
+   "price": 1.66
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Radishes",
+   "variety": "",
+   "unit": "per bunch",
+   "ads": 22,
+   "price": 1.5
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Salad (Mixed Types)",
+   "variety": "",
+   "unit": "10-12 oz package",
+   "ads": 200,
+   "price": 5.48
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Salad (Mixed Types)",
+   "variety": "",
+   "unit": "5-9 oz package",
+   "ads": 647,
+   "price": 3.29
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Salad (Mixed Types)",
+   "variety": "Spring Mix",
+   "unit": "5-9 oz package",
+   "ads": 60,
+   "price": 3.5
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Spinach",
+   "variety": "Flat Type",
+   "unit": "8-10 oz package",
+   "ads": 66,
+   "price": 4.0
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Squash",
+   "variety": "Acorn",
+   "unit": "per lb",
+   "ads": 518,
+   "price": 1.62
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Squash",
+   "variety": "Butternut",
+   "unit": "per lb",
+   "ads": 518,
+   "price": 1.62
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Squash",
+   "variety": "Kabocha",
+   "unit": "per lb",
+   "ads": 337,
+   "price": 1.66
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Squash",
+   "variety": "Spaghetti",
+   "unit": "per lb",
+   "ads": 518,
+   "price": 1.62
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Squash",
+   "variety": "Zucchini",
+   "unit": "per lb",
+   "ads": 2283,
+   "price": 2.39
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Sweet Potatoes",
+   "variety": "",
+   "unit": "per lb",
+   "ads": 710,
+   "price": 2.48
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Tomatoes",
+   "variety": "Grape Type",
+   "unit": "1 pint package",
+   "ads": 183,
+   "price": 3.49
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Tomatoes",
+   "variety": "Plum Type (Roma)",
+   "unit": "per lb",
+   "ads": 176,
+   "price": 2.19
+  },
+  {
+   "group": "Vegetables",
+   "commodity": "Tomatoes",
+   "variety": "Vine Ripes - Heirloom Varieties -",
+   "unit": "per lb",
+   "ads": 53,
+   "price": 5.99
+  },
+  {
+   "group": "Other Specialty Crop Items",
+   "commodity": "Hemp Protein",
+   "variety": "",
+   "unit": "12 oz",
+   "ads": 491,
+   "price": 12.93
+  },
+  {
+   "group": "Other Specialty Crop Items",
+   "commodity": "Hemp Seeds Shelled",
+   "variety": "",
+   "unit": "8 oz",
+   "ads": 471,
+   "price": 11.27
+  },
+  {
+   "group": "Other Specialty Crop Items",
+   "commodity": "Honey",
+   "variety": "",
+   "unit": "12 oz",
+   "ads": 230,
+   "price": 10.49
+  },
+  {
+   "group": "Other Specialty Crop Items",
+   "commodity": "Honey",
+   "variety": "",
+   "unit": "16 oz",
+   "ads": 461,
+   "price": 10.05
+  }
+ ]
+}

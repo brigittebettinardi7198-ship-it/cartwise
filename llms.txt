@@ -3,13 +3,12 @@
 > CartWise is a free website that helps US shoppers fight grocery inflation using only real, sourced, dated public data. It never shows sample or invented prices. If a number can't be verified, it's left out.
 
 ## Tools and data sources
-- Everyday groceries: enter a ZIP and a shopping list. Matched items are priced at U.S. Bureau of Labor Statistics (BLS) Average Price Data (U.S. city average, monthly) and shown with the year-over-year change. Source: https://www.bls.gov/cpi/factsheets/average-prices.htm
 - Gas: a ZIP code maps to its state, which shows AAA's state average prices for regular, mid-grade, premium, and diesel, plus the state's national rank. Source: https://gasprices.aaa.com/state-gas-price-averages/
 - Restaurant cost estimator: party presets (couple date night, family of 4, custom) with drinks, appetizer, and dessert options, plus sales tax and tip (tip on the pre-tax subtotal). Uses median real menu prices from Denny's online menu for one listed store, labeled as an estimate. Source: https://www.dennys.com/menu
-- Organic groceries: organic tips (EWG Dirty Dozen vs. Clean Fifteen, frozen organic, store-brand organic). Organic store prices are shown only when verified. None are currently published.
+- Organic groceries (primary): enter a shopping list. Each matched item shows USDA AMS national weighted-average advertised retail prices for organic produce at major US grocery chains (weekly FVWRETAIL report, National Organic Summary), by variety and package size, with the note "Use this as a benchmark. If your store charges much more than this, look at store brands, Aldi, or Walmart." Items not in the report are left out. Source: https://www.ams.usda.gov/mnreports/fvwretail.pdf
 - Tips: unit-price traps, meat and bakery markdown timing, international and bulk aisle swaps, price matching and rain checks, store-brand equivalents, shrinkflation, coupon and cash-back stacking.
 
 ## Facts
 - Free, no account. Hosted as a static site.
 - Each data file in /data has a "retrieved" date and a source URL.
-- Not affiliated with BLS, AAA, Kroger, Walmart, or any restaurant chain.
+- Not affiliated with USDA, AAA, Kroger, Walmart, or any restaurant chain.
