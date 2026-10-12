@@ -20,4 +20,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://cartwise.example/sitemap.xml
+Sitemap: https://brigittebettinardi7198-ship-it.github.io/cartwise/sitemap.xml
